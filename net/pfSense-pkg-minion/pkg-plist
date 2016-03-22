@@ -1,0 +1,5 @@
+pkg/minion.xml
+pkg/minion.inc
+/etc/inc/priv/minion.priv.inc
+%%DATADIR%%/info.xml
+@dir /etc/inc/priv
