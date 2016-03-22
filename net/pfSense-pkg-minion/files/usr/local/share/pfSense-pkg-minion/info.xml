@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<pfsensepkgs>
+	<package>
+		<name>minion</name>
+		<descr><![CDATA[Minion.]]></descr>
+		<website>http://docs.opennms.org</website>
+		<version>%%PKGVERSION%%</version>
+		<configurationfile>minion.xml</configurationfile>
+		<pkginfolink>http://docs.opennms.org</pkginfolink>
+	</package>
+</pfsensepkgs>
