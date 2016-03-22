@@ -1,0 +1,6 @@
+SHA256 (opennms-minion-container-19.0.0-0.20161124.onms1150.release.19.0.0.3.noarch.rpm) = b37735fbb7ab2e832fe64c719adf6412bf6c97973132d9c1eb3daf96413dc190
+SIZE (opennms-minion-container-19.0.0-0.20161124.onms1150.release.19.0.0.3.noarch.rpm) = 30151421
+SHA256 (opennms-minion-features-core-19.0.0-0.20161124.onms1150.release.19.0.0.3.noarch.rpm) = 3fc127d9eb7df02f4dde4bfc23beca15fb4ffd63a4ae853a31dc0545fb8e6308
+SIZE (opennms-minion-features-core-19.0.0-0.20161124.onms1150.release.19.0.0.3.noarch.rpm) = 21749598
+SHA256 (opennms-minion-features-default-19.0.0-0.20161124.onms1150.release.19.0.0.3.noarch.rpm) = 0caf39c424cf2a67c4fdfa1aa4c5ccc5f0fc4a079d45aea4433b7ff2e63b4322
+SIZE (opennms-minion-features-default-19.0.0-0.20161124.onms1150.release.19.0.0.3.noarch.rpm) = 82402724

@@ -223,6 +223,7 @@ riak:*:667:
 bnetd:*:700:
 fastnetmon:*:701:
 bopm:*:717:
+minion:*:737:
 openxpki:*:777:
 zetacoin:*:780:
 foreman_proxy:*:812:

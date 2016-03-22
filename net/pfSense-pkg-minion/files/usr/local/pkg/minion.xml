@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE packagegui SYSTEM "../schema/packages.dtd">
+<?xml-stylesheet type="text/xsl" href="../xsl/package.xsl"?>
+<packagegui>
+	<copyright>
+	<![CDATA[
+/* $Id$ */
+/* ====================================================================================== */
+/*
+	minion.xml
+*/
+/* ====================================================================================== */
+/* ====================================================================================== */
+	]]>
+	</copyright>
+	<title>Services: Minion</title>
+	<name>minion</name>
+	<include_file>/usr/local/pkg/minion.inc</include_file>
+	<menu>
+		<name>Minion</name>
+		<section>Services</section>
+		<url>/pkg_edit.php?xml=minion.xml</url>
+	</menu>
+        <service>
+		<name>minion</name>
+		<rcfile>minion</rcfile>
+		<!-- This executable is used to by the service status page to determine if the process is running.
+		     We should be the only 'java' process on the system so this should work fine for now.
+		     Alternatively a custom status command could be set by using an 'custom_php_service_status_command' element here,
+	  	     but that function must be already avaiable, since the include_files are not pulled in.
+		-->
+                <executable>java</executable>
+                <description>OpenNMS Minion</description>
+        </service>
+	<fields>
+                <field>
+                        <name>Service Options</name>
+                        <type>listtopic</type>
+                </field>
+                <field>
+                        <fielddescr>Enable</fielddescr>
+                        <fieldname>enable</fieldname>
+                        <description>Enable Minion.</description>
+                        <type>checkbox</type>
+                </field>
+		<field>
+			<fielddescr>HTTP URL</fielddescr>
+			<fieldname>httpurl</fieldname>
+			<description>Enter the URL used to access HTTP on the OpenNMS instance.</description>
+			<type>input</type>
+		</field>
+		<field>
+			<fielddescr>Broker URL</fielddescr>
+			<fieldname>brokerurl</fieldname>
+			<description>Enter the URL used to access the ActiveMQ broker used by the OpenNMS instance.</description>
+			<type>input</type>
+		</field>
+                <field>
+                        <fielddescr>Instance ID</fielddescr>
+                        <fieldname>instance_id</fieldname>
+                        <description>Enter the OpenNMS instance ID (used in multi-tenant setups).</description>
+                        <type>input</type>
+                </field>
+                <field>
+                        <name>Minion Options</name>
+                        <type>listtopic</type>
+                </field>
+		<field>
+			<fielddescr>Location</fielddescr>
+			<fieldname>location</fieldname>
+			<description>Enter the name of the location to which this Minion should be associated.</description>
+			<type>input</type>
+		</field>
+	</fields>
+        <custom_php_resync_config_command>
+                minion_sync();
+        </custom_php_resync_config_command>
+</packagegui>
