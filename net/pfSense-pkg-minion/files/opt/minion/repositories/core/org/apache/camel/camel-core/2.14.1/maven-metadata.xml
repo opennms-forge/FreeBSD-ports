@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.camel</groupId>
+  <artifactId>camel-core</artifactId>
+  <version>2.14.1</version>
+  <versioning>
+    <snapshot />
+    <lastUpdated>20160314204848</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.14.1</value>
+        <updated>20160314204848</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

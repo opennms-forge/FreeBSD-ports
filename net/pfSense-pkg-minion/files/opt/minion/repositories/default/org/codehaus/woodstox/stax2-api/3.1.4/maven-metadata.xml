@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.codehaus.woodstox</groupId>
+  <artifactId>stax2-api</artifactId>
+  <version>3.1.4</version>
+  <versioning>
+    <snapshot />
+    <lastUpdated>20160314204851</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.1.4</value>
+        <updated>20160314204851</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

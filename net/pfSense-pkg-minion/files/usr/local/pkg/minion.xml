@@ -28,22 +28,32 @@
                 <description>OpenNMS Minion</description>
         </service>
 	<fields>
+                <field>
+                        <name>Service Options</name>
+                        <type>listtopic</type>
+                </field>
+                <field>
+                        <fielddescr>Enable</fielddescr>
+                        <fieldname>enable</fieldname>
+                        <description>Enable Minion.</description>
+                        <type>checkbox</type>
+                </field>
 		<field>
 			<fielddescr>HTTP URL</fielddescr>
 			<fieldname>opennms.http</fieldname>
 			<description>Enter the URL used to access HTTP on the OpenNMS instance.</description>
 			<type>input</type>
-			<required>true</required>
+			<!-- <required>true</required> -->
 		</field>
 		<field>
 			<fielddescr>Broker URL</fielddescr>
 			<fieldname>opennms.broker</fieldname>
 			<description>Enter the URL used to access the ActiveMQ broker used by the OpenNMS instance.</description>
 			<type>input</type>
-			<required>true</required>
+			<!-- <required>true</required> -->
 		</field>
 	</fields>
-	<custom_add_php_command>
-		minion_command();
-	</custom_add_php_command>
+        <custom_php_resync_config_command>
+                minion_sync();
+        </custom_php_resync_config_command>
 </packagegui>

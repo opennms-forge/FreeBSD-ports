@@ -1,5 +1,1208 @@
-pkg/minion.xml
-pkg/minion.inc
 /etc/inc/priv/minion.priv.inc
+/opt/minion/bin/client
+/opt/minion/bin/client.bat
+/opt/minion/bin/instance
+/opt/minion/bin/instance.bat
+/opt/minion/bin/karaf
+/opt/minion/bin/karaf.bat
+/opt/minion/bin/setenv
+/opt/minion/bin/setenv.bat
+/opt/minion/bin/shell
+/opt/minion/bin/shell.bat
+/opt/minion/bin/start
+/opt/minion/bin/start.bat
+/opt/minion/bin/status
+/opt/minion/bin/status.bat
+/opt/minion/bin/stop
+/opt/minion/bin/stop.bat
+/opt/minion/deploy/README
+/opt/minion/etc/all.policy
+/opt/minion/etc/branding.properties
+/opt/minion/etc/config.properties
+/opt/minion/etc/custom.properties
+/opt/minion/etc/distribution.info
+/opt/minion/etc/equinox-debug.properties
+/opt/minion/etc/featuresBoot.d/.readme
+/opt/minion/etc/java.util.logging.properties
+/opt/minion/etc/jmx.acl.cfg
+/opt/minion/etc/jmx.acl.java.lang.Memory.cfg
+/opt/minion/etc/jmx.acl.org.apache.karaf.bundle.cfg
+/opt/minion/etc/jmx.acl.org.apache.karaf.config.cfg
+/opt/minion/etc/jmx.acl.org.apache.karaf.security.jmx.cfg
+/opt/minion/etc/jmx.acl.osgi.compendium.cm.cfg
+/opt/minion/etc/jre.properties
+/opt/minion/etc/keys.properties
+/opt/minion/etc/org.apache.felix.fileinstall-deploy.cfg
+/opt/minion/etc/org.apache.karaf.command.acl.bundle.cfg
+/opt/minion/etc/org.apache.karaf.command.acl.config.cfg
+/opt/minion/etc/org.apache.karaf.command.acl.feature.cfg
+/opt/minion/etc/org.apache.karaf.command.acl.jaas.cfg
+/opt/minion/etc/org.apache.karaf.command.acl.kar.cfg
+/opt/minion/etc/org.apache.karaf.command.acl.scope_bundle.cfg
+/opt/minion/etc/org.apache.karaf.command.acl.shell.cfg
+/opt/minion/etc/org.apache.karaf.command.acl.system.cfg
+/opt/minion/etc/org.apache.karaf.features.cfg
+/opt/minion/etc/org.apache.karaf.features.repos.cfg
+/opt/minion/etc/org.apache.karaf.jaas.cfg
+/opt/minion/etc/org.apache.karaf.kar.cfg
+/opt/minion/etc/org.apache.karaf.log.cfg
+/opt/minion/etc/org.apache.karaf.management.cfg
+/opt/minion/etc/org.apache.karaf.shell.cfg
+/opt/minion/etc/org.opennms.minion.controller.cfg
+/opt/minion/etc/org.ops4j.pax.logging.cfg
+/opt/minion/etc/org.ops4j.pax.url.mvn.cfg
+/opt/minion/etc/profile.cfg
+/opt/minion/etc/shell.init.script
+/opt/minion/etc/startup.properties
+/opt/minion/etc/system.properties
+/opt/minion/etc/users.properties
+/opt/minion/lib/README
+/opt/minion/lib/boot/README
+/opt/minion/lib/boot/org.apache.karaf.diagnostic.boot-4.0.4.jar
+/opt/minion/lib/boot/org.apache.karaf.jaas.boot-4.0.4.jar
+/opt/minion/lib/boot/org.apache.karaf.main-4.0.4.jar
+/opt/minion/lib/boot/org.osgi.core-6.0.0.jar
+/opt/minion/lib/endorsed/README
+/opt/minion/lib/endorsed/org.apache.karaf.exception-4.0.4.jar
+/opt/minion/lib/ext/README
+/opt/minion/repositories/core/commons-net/commons-net/3.3/commons-net-3.3.jar
+/opt/minion/repositories/core/commons-net/commons-net/3.3/commons-net-3.3.pom
+/opt/minion/repositories/core/commons-net/commons-net/3.3/maven-metadata.xml
+/opt/minion/repositories/core/commons-pool/commons-pool/1.6/commons-pool-1.6.jar
+/opt/minion/repositories/core/commons-pool/commons-pool/1.6/commons-pool-1.6.pom
+/opt/minion/repositories/core/commons-pool/commons-pool/1.6/maven-metadata.xml
+/opt/minion/repositories/core/features.boot
+/opt/minion/repositories/core/features.uri
+/opt/minion/repositories/core/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar
+/opt/minion/repositories/core/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+/opt/minion/repositories/core/javax/annotation/javax.annotation-api/1.2/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/activemq/activemq-camel/5.10.0/activemq-camel-5.10.0.jar
+/opt/minion/repositories/core/org/apache/activemq/activemq-camel/5.10.0/activemq-camel-5.10.0.pom
+/opt/minion/repositories/core/org/apache/activemq/activemq-camel/5.10.0/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/activemq/activemq-karaf/5.10.0/activemq-karaf-5.10.0-features-core.xml
+/opt/minion/repositories/core/org/apache/activemq/activemq-karaf/5.10.0/activemq-karaf-5.10.0-features.xml
+/opt/minion/repositories/core/org/apache/activemq/activemq-karaf/5.10.0/activemq-karaf-5.10.0.pom
+/opt/minion/repositories/core/org/apache/activemq/activemq-karaf/5.10.0/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/activemq/activemq-osgi/5.10.0/activemq-osgi-5.10.0.jar
+/opt/minion/repositories/core/org/apache/activemq/activemq-osgi/5.10.0/activemq-osgi-5.10.0.pom
+/opt/minion/repositories/core/org/apache/activemq/activemq-osgi/5.10.0/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/camel/camel-blueprint/2.14.1/camel-blueprint-2.14.1.jar
+/opt/minion/repositories/core/org/apache/camel/camel-blueprint/2.14.1/camel-blueprint-2.14.1.pom
+/opt/minion/repositories/core/org/apache/camel/camel-blueprint/2.14.1/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/camel/camel-core/2.14.1/camel-core-2.14.1.jar
+/opt/minion/repositories/core/org/apache/camel/camel-core/2.14.1/camel-core-2.14.1.pom
+/opt/minion/repositories/core/org/apache/camel/camel-core/2.14.1/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/camel/camel-jaxb/2.14.1/camel-jaxb-2.14.1.jar
+/opt/minion/repositories/core/org/apache/camel/camel-jaxb/2.14.1/camel-jaxb-2.14.1.pom
+/opt/minion/repositories/core/org/apache/camel/camel-jaxb/2.14.1/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/camel/camel-jms/2.14.1/camel-jms-2.14.1.jar
+/opt/minion/repositories/core/org/apache/camel/camel-jms/2.14.1/camel-jms-2.14.1.pom
+/opt/minion/repositories/core/org/apache/camel/camel-jms/2.14.1/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/camel/camel-spring/2.14.1/camel-spring-2.14.1.jar
+/opt/minion/repositories/core/org/apache/camel/camel-spring/2.14.1/camel-spring-2.14.1.pom
+/opt/minion/repositories/core/org/apache/camel/camel-spring/2.14.1/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/camel/karaf/apache-camel/2.14.1/apache-camel-2.14.1-features.xml
+/opt/minion/repositories/core/org/apache/camel/karaf/camel-karaf-commands/2.14.1/camel-karaf-commands-2.14.1.jar
+/opt/minion/repositories/core/org/apache/cxf/karaf/apache-cxf/3.0.2/apache-cxf-3.0.2-features.xml
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.jar
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.pom
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.pom
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom
+/opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/jclouds/karaf/jclouds-karaf/1.8.0/jclouds-karaf-1.8.0-features.xml
+/opt/minion/repositories/core/org/apache/karaf/bundle/org.apache.karaf.bundle.springstate/4.0.4/org.apache.karaf.bundle.springstate-4.0.4.jar
+/opt/minion/repositories/core/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/4.0.4/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/4.0.4/org.apache.karaf.deployer.spring-4.0.4.jar
+/opt/minion/repositories/core/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/4.0.4/org.apache.karaf.deployer.spring-4.0.4.pom
+/opt/minion/repositories/core/org/apache/karaf/features/spring/4.0.4/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/karaf/features/spring/4.0.4/spring-4.0.4-features.xml
+/opt/minion/repositories/core/org/apache/karaf/features/spring/4.0.4/spring-4.0.4.pom
+/opt/minion/repositories/core/org/apache/karaf/features/standard/4.0.4/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/karaf/features/standard/4.0.4/standard-4.0.4-features.xml
+/opt/minion/repositories/core/org/apache/karaf/features/standard/4.0.4/standard-4.0.4.pom
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6/org.apache.servicemix.bundles.aopalliance-1.0_6.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6/org.apache.servicemix.bundles.aopalliance-1.0_6.pom
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.cglib/3.2.0_1/org.apache.servicemix.bundles.cglib-3.2.0_1.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.jaxb-impl/2.2.1.1_2/org.apache.servicemix.bundles.jaxb-impl-2.2.1.1_2.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-aop-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-beans-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-context-support-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-context-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-core-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-expression-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-jms/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-jms-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-tx/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-tx-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.activation-api-1.1/2.2.0/org.apache.servicemix.specs.activation-api-1.1-2.2.0.jar
+/opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2/2.2.0/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2/2.2.0/org.apache.servicemix.specs.jaxb-api-2.2-2.2.0.jar
+/opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2/2.2.0/org.apache.servicemix.specs.jaxb-api-2.2-2.2.0.pom
+/opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0/org.apache.servicemix.specs.stax-api-1.0-2.2.0.jar
+/opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0/org.apache.servicemix.specs.stax-api-1.0-2.2.0.pom
+/opt/minion/repositories/core/org/apache/xbean/xbean-spring/3.16/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/xbean/xbean-spring/3.16/xbean-spring-3.16.jar
+/opt/minion/repositories/core/org/apache/xbean/xbean-spring/3.16/xbean-spring-3.16.pom
+/opt/minion/repositories/core/org/apache/zookeeper/zookeeper/3.4.5/maven-metadata.xml
+/opt/minion/repositories/core/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar
+/opt/minion/repositories/core/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.pom
+/opt/minion/repositories/core/org/codehaus/woodstox/stax2-api/3.1.4/maven-metadata.xml
+/opt/minion/repositories/core/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+/opt/minion/repositories/core/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom
+/opt/minion/repositories/core/org/codehaus/woodstox/woodstox-core-asl/4.2.1/woodstox-core-asl-4.2.1.jar
+/opt/minion/repositories/core/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.6.4/jaxb2-basics-runtime-0.6.4.jar
+/opt/minion/repositories/core/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.6.4/jaxb2-basics-runtime-0.6.4.pom
+/opt/minion/repositories/core/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.6.4/maven-metadata.xml
+/opt/minion/repositories/core/org/opennms/features/minion/core-api/18.0.0-SNAPSHOT/core-api-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/core/org/opennms/features/minion/core-features/18.0.0-SNAPSHOT/core-features-18.0.0-SNAPSHOT.xml
+/opt/minion/repositories/core/org/opennms/features/minion/core-impl/18.0.0-SNAPSHOT/core-impl-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/core/org/opennms/features/minion/shell/18.0.0-SNAPSHOT/shell-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/core/org/ops4j/pax/web/pax-web-features/4.2.4/pax-web-features-4.2.4-features.xml
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-annotation/1.2.1/maven-metadata.xml
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-annotation/1.2.1/spring-osgi-annotation-1.2.1.jar
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-annotation/1.2.1/spring-osgi-annotation-1.2.1.pom
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-core/1.2.1/maven-metadata.xml
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-core/1.2.1/spring-osgi-core-1.2.1.jar
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-core/1.2.1/spring-osgi-core-1.2.1.pom
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-extender/1.2.1/maven-metadata.xml
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-extender/1.2.1/spring-osgi-extender-1.2.1.jar
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-extender/1.2.1/spring-osgi-extender-1.2.1.pom
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-io/1.2.1/maven-metadata.xml
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-io/1.2.1/spring-osgi-io-1.2.1.jar
+/opt/minion/repositories/core/org/springframework/osgi/spring-osgi-io/1.2.1/spring-osgi-io-1.2.1.pom
+/opt/minion/repositories/default/antlr/antlr/2.7.7/antlr-2.7.7.jar
+/opt/minion/repositories/default/antlr/antlr/2.7.7/antlr-2.7.7.pom
+/opt/minion/repositories/default/antlr/antlr/2.7.7/maven-metadata.xml
+/opt/minion/repositories/default/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar
+/opt/minion/repositories/default/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.pom
+/opt/minion/repositories/default/c3p0/c3p0/0.9.1.2/maven-metadata.xml
+/opt/minion/repositories/default/com/atomikos/atomikos-util/3.9.2/atomikos-util-3.9.2.jar
+/opt/minion/repositories/default/com/atomikos/atomikos-util/3.9.2/atomikos-util-3.9.2.pom
+/opt/minion/repositories/default/com/atomikos/atomikos-util/3.9.2/maven-metadata.xml
+/opt/minion/repositories/default/com/atomikos/transactions-api/3.9.2/maven-metadata.xml
+/opt/minion/repositories/default/com/atomikos/transactions-api/3.9.2/transactions-api-3.9.2.jar
+/opt/minion/repositories/default/com/atomikos/transactions-api/3.9.2/transactions-api-3.9.2.pom
+/opt/minion/repositories/default/com/atomikos/transactions-jdbc/3.9.2/maven-metadata.xml
+/opt/minion/repositories/default/com/atomikos/transactions-jdbc/3.9.2/transactions-jdbc-3.9.2.jar
+/opt/minion/repositories/default/com/atomikos/transactions-jdbc/3.9.2/transactions-jdbc-3.9.2.pom
+/opt/minion/repositories/default/com/atomikos/transactions-jta/3.9.2/maven-metadata.xml
+/opt/minion/repositories/default/com/atomikos/transactions-jta/3.9.2/transactions-jta-3.9.2.jar
+/opt/minion/repositories/default/com/atomikos/transactions-jta/3.9.2/transactions-jta-3.9.2.pom
+/opt/minion/repositories/default/com/atomikos/transactions/3.9.2/maven-metadata.xml
+/opt/minion/repositories/default/com/atomikos/transactions/3.9.2/transactions-3.9.2.jar
+/opt/minion/repositories/default/com/atomikos/transactions/3.9.2/transactions-3.9.2.pom
+/opt/minion/repositories/default/com/google/guava/guava/17.0/guava-17.0.jar
+/opt/minion/repositories/default/com/google/guava/guava/17.0/guava-17.0.pom
+/opt/minion/repositories/default/com/google/guava/guava/17.0/maven-metadata.xml
+/opt/minion/repositories/default/com/googlecode/concurrent-locks/concurrent-locks/1.0.0/concurrent-locks-1.0.0.jar
+/opt/minion/repositories/default/com/googlecode/concurrent-locks/concurrent-locks/1.0.0/concurrent-locks-1.0.0.pom
+/opt/minion/repositories/default/com/googlecode/concurrent-locks/concurrent-locks/1.0.0/maven-metadata.xml
+/opt/minion/repositories/default/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+/opt/minion/repositories/default/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+/opt/minion/repositories/default/commons-codec/commons-codec/1.9/maven-metadata.xml
+/opt/minion/repositories/default/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+/opt/minion/repositories/default/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom
+/opt/minion/repositories/default/commons-collections/commons-collections/3.2.2/maven-metadata.xml
+/opt/minion/repositories/default/commons-io/commons-io/2.4/commons-io-2.4.jar
+/opt/minion/repositories/default/commons-io/commons-io/2.4/commons-io-2.4.pom
+/opt/minion/repositories/default/commons-io/commons-io/2.4/maven-metadata.xml
+/opt/minion/repositories/default/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+/opt/minion/repositories/default/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+/opt/minion/repositories/default/commons-lang/commons-lang/2.6/maven-metadata.xml
+/opt/minion/repositories/default/commons-net/commons-net/3.3/commons-net-3.3.jar
+/opt/minion/repositories/default/commons-net/commons-net/3.3/commons-net-3.3.pom
+/opt/minion/repositories/default/commons-net/commons-net/3.3/maven-metadata.xml
+/opt/minion/repositories/default/commons-pool/commons-pool/1.6/commons-pool-1.6.jar
+/opt/minion/repositories/default/commons-pool/commons-pool/1.6/commons-pool-1.6.pom
+/opt/minion/repositories/default/commons-pool/commons-pool/1.6/maven-metadata.xml
+/opt/minion/repositories/default/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+/opt/minion/repositories/default/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom
+/opt/minion/repositories/default/dom4j/dom4j/1.6.1/maven-metadata.xml
+/opt/minion/repositories/default/features.boot
+/opt/minion/repositories/default/features.uri
+/opt/minion/repositories/default/javax/transaction/jta/1.1/jta-1.1.jar
+/opt/minion/repositories/default/javax/transaction/jta/1.1/jta-1.1.pom
+/opt/minion/repositories/default/javax/transaction/jta/1.1/maven-metadata.xml
+/opt/minion/repositories/default/net/java/dev/jna/jna-platform/4.2.1/jna-platform-4.2.1.jar
+/opt/minion/repositories/default/net/java/dev/jna/jna-platform/4.2.1/jna-platform-4.2.1.pom
+/opt/minion/repositories/default/net/java/dev/jna/jna-platform/4.2.1/maven-metadata.xml
+/opt/minion/repositories/default/net/java/dev/jna/jna/4.2.1/jna-4.2.1.jar
+/opt/minion/repositories/default/net/java/dev/jna/jna/4.2.1/jna-4.2.1.pom
+/opt/minion/repositories/default/net/java/dev/jna/jna/4.2.1/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/activemq/activemq-camel/5.10.0/activemq-camel-5.10.0.jar
+/opt/minion/repositories/default/org/apache/activemq/activemq-camel/5.10.0/activemq-camel-5.10.0.pom
+/opt/minion/repositories/default/org/apache/activemq/activemq-camel/5.10.0/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/activemq/activemq-karaf/5.10.0/activemq-karaf-5.10.0-features-core.xml
+/opt/minion/repositories/default/org/apache/activemq/activemq-karaf/5.10.0/activemq-karaf-5.10.0-features.xml
+/opt/minion/repositories/default/org/apache/activemq/activemq-karaf/5.10.0/activemq-karaf-5.10.0.pom
+/opt/minion/repositories/default/org/apache/activemq/activemq-karaf/5.10.0/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/activemq/activemq-osgi/5.10.0/activemq-osgi-5.10.0.jar
+/opt/minion/repositories/default/org/apache/activemq/activemq-osgi/5.10.0/activemq-osgi-5.10.0.pom
+/opt/minion/repositories/default/org/apache/activemq/activemq-osgi/5.10.0/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/camel/camel-blueprint/2.14.1/camel-blueprint-2.14.1.jar
+/opt/minion/repositories/default/org/apache/camel/camel-blueprint/2.14.1/camel-blueprint-2.14.1.pom
+/opt/minion/repositories/default/org/apache/camel/camel-blueprint/2.14.1/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/camel/camel-core/2.14.1/camel-core-2.14.1.jar
+/opt/minion/repositories/default/org/apache/camel/camel-core/2.14.1/camel-core-2.14.1.pom
+/opt/minion/repositories/default/org/apache/camel/camel-core/2.14.1/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/camel/camel-jms/2.14.1/camel-jms-2.14.1.jar
+/opt/minion/repositories/default/org/apache/camel/camel-jms/2.14.1/camel-jms-2.14.1.pom
+/opt/minion/repositories/default/org/apache/camel/camel-jms/2.14.1/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/camel/camel-spring/2.14.1/camel-spring-2.14.1.jar
+/opt/minion/repositories/default/org/apache/camel/camel-spring/2.14.1/camel-spring-2.14.1.pom
+/opt/minion/repositories/default/org/apache/camel/camel-spring/2.14.1/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/camel/karaf/apache-camel/2.14.1/apache-camel-2.14.1-features.xml
+/opt/minion/repositories/default/org/apache/camel/karaf/camel-karaf-commands/2.14.1/camel-karaf-commands-2.14.1.jar
+/opt/minion/repositories/default/org/apache/cxf/karaf/apache-cxf/3.0.2/apache-cxf-3.0.2-features.xml
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.jar
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.pom
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.pom
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom
+/opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/jclouds/karaf/jclouds-karaf/1.8.0/jclouds-karaf-1.8.0-features.xml
+/opt/minion/repositories/default/org/apache/karaf/bundle/org.apache.karaf.bundle.springstate/4.0.4/org.apache.karaf.bundle.springstate-4.0.4.jar
+/opt/minion/repositories/default/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/4.0.4/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/4.0.4/org.apache.karaf.deployer.spring-4.0.4.jar
+/opt/minion/repositories/default/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/4.0.4/org.apache.karaf.deployer.spring-4.0.4.pom
+/opt/minion/repositories/default/org/apache/karaf/features/spring/4.0.4/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/karaf/features/spring/4.0.4/spring-4.0.4-features.xml
+/opt/minion/repositories/default/org/apache/karaf/features/spring/4.0.4/spring-4.0.4.pom
+/opt/minion/repositories/default/org/apache/karaf/features/standard/4.0.4/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/karaf/features/standard/4.0.4/standard-4.0.4-features.xml
+/opt/minion/repositories/default/org/apache/karaf/features/standard/4.0.4/standard-4.0.4.pom
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6/org.apache.servicemix.bundles.aopalliance-1.0_6.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6/org.apache.servicemix.bundles.aopalliance-1.0_6.pom
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.cglib/3.2.0_1/org.apache.servicemix.bundles.cglib-3.2.0_1.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.jaxb-impl/2.2.1.1_2/org.apache.servicemix.bundles.jaxb-impl-2.2.1.1_2.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-aop-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-aop-4.0.7.RELEASE_3.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-beans-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-beans-4.0.7.RELEASE_3.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-context-support-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-context-support-4.0.7.RELEASE_3.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-context-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-context-4.0.7.RELEASE_3.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-core-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-core-4.0.7.RELEASE_3.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-expression-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-expression-4.0.7.RELEASE_3.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-jdbc/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-jdbc-4.0.7.RELEASE_3.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-jms/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-jms-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-orm/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-orm-4.0.7.RELEASE_3.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-tx/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-tx-3.2.14.RELEASE_1.jar
+/opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-tx/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-tx-4.0.7.RELEASE_3.jar
+/opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.activation-api-1.1/2.2.0/org.apache.servicemix.specs.activation-api-1.1-2.2.0.jar
+/opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2/2.2.0/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2/2.2.0/org.apache.servicemix.specs.jaxb-api-2.2-2.2.0.jar
+/opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2/2.2.0/org.apache.servicemix.specs.jaxb-api-2.2-2.2.0.pom
+/opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0/org.apache.servicemix.specs.stax-api-1.0-2.2.0.jar
+/opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0/org.apache.servicemix.specs.stax-api-1.0-2.2.0.pom
+/opt/minion/repositories/default/org/apache/xbean/xbean-spring/3.16/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/xbean/xbean-spring/3.16/xbean-spring-3.16.jar
+/opt/minion/repositories/default/org/apache/xbean/xbean-spring/3.16/xbean-spring-3.16.pom
+/opt/minion/repositories/default/org/apache/zookeeper/zookeeper/3.4.5/maven-metadata.xml
+/opt/minion/repositories/default/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar
+/opt/minion/repositories/default/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.pom
+/opt/minion/repositories/default/org/codehaus/castor/castor/1.1.2.1/castor-1.1.2.1.jar
+/opt/minion/repositories/default/org/codehaus/castor/castor/1.1.2.1/castor-1.1.2.1.pom
+/opt/minion/repositories/default/org/codehaus/castor/castor/1.1.2.1/maven-metadata.xml
+/opt/minion/repositories/default/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar
+/opt/minion/repositories/default/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom
+/opt/minion/repositories/default/org/codehaus/jackson/jackson-core-asl/1.9.13/maven-metadata.xml
+/opt/minion/repositories/default/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar
+/opt/minion/repositories/default/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom
+/opt/minion/repositories/default/org/codehaus/jackson/jackson-mapper-asl/1.9.13/maven-metadata.xml
+/opt/minion/repositories/default/org/codehaus/woodstox/stax2-api/3.1.4/maven-metadata.xml
+/opt/minion/repositories/default/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+/opt/minion/repositories/default/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom
+/opt/minion/repositories/default/org/codehaus/woodstox/woodstox-core-asl/4.2.1/woodstox-core-asl-4.2.1.jar
+/opt/minion/repositories/default/org/dnsjava/dnsjava/2.1.3/dnsjava-2.1.3.jar
+/opt/minion/repositories/default/org/dnsjava/dnsjava/2.1.3/dnsjava-2.1.3.pom
+/opt/minion/repositories/default/org/dnsjava/dnsjava/2.1.3/maven-metadata.xml
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.1/maven-metadata.xml
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.1/org.eclipse.persistence.antlr-2.5.1.jar
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.1/org.eclipse.persistence.antlr-2.5.1.pom
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.1/maven-metadata.xml
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.1/org.eclipse.persistence.asm-2.5.1.jar
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.1/org.eclipse.persistence.asm-2.5.1.pom
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.core/2.5.1/maven-metadata.xml
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.core/2.5.1/org.eclipse.persistence.core-2.5.1.jar
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.core/2.5.1/org.eclipse.persistence.core-2.5.1.pom
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.moxy/2.5.1/maven-metadata.xml
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.moxy/2.5.1/org.eclipse.persistence.moxy-2.5.1.jar
+/opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.moxy/2.5.1/org.eclipse.persistence.moxy-2.5.1.pom
+/opt/minion/repositories/default/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar
+/opt/minion/repositories/default/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.pom
+/opt/minion/repositories/default/org/hibernate/hibernate-commons-annotations/3.2.0.Final/maven-metadata.xml
+/opt/minion/repositories/default/org/hibernate/hibernate-core/3.6.10.Final/hibernate-core-3.6.10.Final.jar
+/opt/minion/repositories/default/org/hibernate/hibernate-core/3.6.10.Final/hibernate-core-3.6.10.Final.pom
+/opt/minion/repositories/default/org/hibernate/hibernate-core/3.6.10.Final/maven-metadata.xml
+/opt/minion/repositories/default/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+/opt/minion/repositories/default/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom
+/opt/minion/repositories/default/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/maven-metadata.xml
+/opt/minion/repositories/default/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.jar
+/opt/minion/repositories/default/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.pom
+/opt/minion/repositories/default/org/jasypt/jasypt/1.9.0/maven-metadata.xml
+/opt/minion/repositories/default/org/json/json/20140107/json-20140107.jar
+/opt/minion/repositories/default/org/json/json/20140107/json-20140107.pom
+/opt/minion/repositories/default/org/json/json/20140107/maven-metadata.xml
+/opt/minion/repositories/default/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.6.4/jaxb2-basics-runtime-0.6.4.jar
+/opt/minion/repositories/default/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.6.4/jaxb2-basics-runtime-0.6.4.pom
+/opt/minion/repositories/default/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.6.4/maven-metadata.xml
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.api/18.0.0-SNAPSHOT/org.opennms.core.api-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.castor-properties/18.0.0-SNAPSHOT/org.opennms.core.castor-properties-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.criteria/18.0.0-SNAPSHOT/org.opennms.core.criteria-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.daemon/18.0.0-SNAPSHOT/org.opennms.core.daemon-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.db/18.0.0-SNAPSHOT/org.opennms.core.db-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.icmp-jna/18.0.0-SNAPSHOT/org.opennms.core.icmp-jna-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.lib/18.0.0-SNAPSHOT/org.opennms.core.lib-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.logging/18.0.0-SNAPSHOT/org.opennms.core.logging-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.soa/18.0.0-SNAPSHOT/org.opennms.core.soa-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.spring/18.0.0-SNAPSHOT/org.opennms.core.spring-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/org.opennms.core.xml/18.0.0-SNAPSHOT/org.opennms.core.xml-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.api/18.0.0-SNAPSHOT/org.opennms.core.snmp.api-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.commands/18.0.0-SNAPSHOT/org.opennms.core.snmp.commands-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.implementations.snmp4j/18.0.0-SNAPSHOT/org.opennms.core.snmp.implementations.snmp4j-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.joesnmp/18.0.0-SNAPSHOT/org.opennms.core.snmp.joesnmp-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/features/events/org.opennms.features.events.api/18.0.0-SNAPSHOT/org.opennms.features.events.api-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/features/org.opennms.features.discovery/18.0.0-SNAPSHOT/org.opennms.features.discovery-18.0.0-SNAPSHOT-blueprint-discoverer.xml
+/opt/minion/repositories/default/org/opennms/features/org.opennms.features.discovery/18.0.0-SNAPSHOT/org.opennms.features.discovery-18.0.0-SNAPSHOT-blueprint-discovery-distPollerDaoMinion.xml
+/opt/minion/repositories/default/org/opennms/features/org.opennms.features.discovery/18.0.0-SNAPSHOT/org.opennms.features.discovery-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/features/poller/org.opennms.features.poller.api/18.0.0-SNAPSHOT/org.opennms.features.poller.api-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/karaf/opennms/18.0.0-SNAPSHOT/opennms-18.0.0-SNAPSHOT-features.xml
+/opt/minion/repositories/default/org/opennms/karaf/opennms/18.0.0-SNAPSHOT/opennms-18.0.0-SNAPSHOT-minion.xml
+/opt/minion/repositories/default/org/opennms/lib/org.opennms.lib.tracker/0.7/maven-metadata.xml
+/opt/minion/repositories/default/org/opennms/lib/org.opennms.lib.tracker/0.7/org.opennms.lib.tracker-0.7.jar
+/opt/minion/repositories/default/org/opennms/lib/org.opennms.lib.tracker/0.7/org.opennms.lib.tracker-0.7.pom
+/opt/minion/repositories/default/org/opennms/opennms-config-api/18.0.0-SNAPSHOT/opennms-config-api-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/opennms-config-jaxb/18.0.0-SNAPSHOT/opennms-config-jaxb-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/opennms-config-model/18.0.0-SNAPSHOT/opennms-config-model-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/opennms-config/18.0.0-SNAPSHOT/opennms-config-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/opennms-dao-api/18.0.0-SNAPSHOT/opennms-dao-api-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/opennms-icmp-api/18.0.0-SNAPSHOT/opennms-icmp-api-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/opennms-icmp-jna/18.0.0-SNAPSHOT/opennms-icmp-jna-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/opennms-model/18.0.0-SNAPSHOT/opennms-model-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/opennms-rrd-api/18.0.0-SNAPSHOT/opennms-rrd-api-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/opennms/opennms-util/18.0.0-SNAPSHOT/opennms-util-18.0.0-SNAPSHOT.jar
+/opt/minion/repositories/default/org/ops4j/pax/web/pax-web-features/4.2.4/pax-web-features-4.2.4-features.xml
+/opt/minion/repositories/default/org/postgresql/postgresql/9.3-1100-jdbc4/maven-metadata.xml
+/opt/minion/repositories/default/org/postgresql/postgresql/9.3-1100-jdbc4/postgresql-9.3-1100-jdbc4.jar
+/opt/minion/repositories/default/org/postgresql/postgresql/9.3-1100-jdbc4/postgresql-9.3-1100-jdbc4.pom
+/opt/minion/repositories/default/org/snmp4j/snmp4j/2.3.1/maven-metadata.xml
+/opt/minion/repositories/default/org/snmp4j/snmp4j/2.3.1/snmp4j-2.3.1.jar
+/opt/minion/repositories/default/org/snmp4j/snmp4j/2.3.1/snmp4j-2.3.1.pom
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-annotation/1.2.1/maven-metadata.xml
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-annotation/1.2.1/spring-osgi-annotation-1.2.1.jar
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-annotation/1.2.1/spring-osgi-annotation-1.2.1.pom
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-core/1.2.1/maven-metadata.xml
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-core/1.2.1/spring-osgi-core-1.2.1.jar
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-core/1.2.1/spring-osgi-core-1.2.1.pom
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-extender/1.2.1/maven-metadata.xml
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-extender/1.2.1/spring-osgi-extender-1.2.1.jar
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-extender/1.2.1/spring-osgi-extender-1.2.1.pom
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-io/1.2.1/maven-metadata.xml
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-io/1.2.1/spring-osgi-io-1.2.1.jar
+/opt/minion/repositories/default/org/springframework/osgi/spring-osgi-io/1.2.1/spring-osgi-io-1.2.1.pom
+/opt/minion/repositories/default/oro/oro/2.0.8/maven-metadata.xml
+/opt/minion/repositories/default/oro/oro/2.0.8/oro-2.0.8.jar
+/opt/minion/repositories/default/oro/oro/2.0.8/oro-2.0.8.pom
+/opt/minion/system/README
+/opt/minion/system/com/google/guava/guava/17.0/guava-17.0.jar
+/opt/minion/system/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+/opt/minion/system/jline/jline/2.13/jline-2.13.jar
+/opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.api/1.0.1/org.apache.aries.blueprint.api-1.0.1.jar
+/opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.cm/1.0.7/org.apache.aries.blueprint.cm-1.0.7.jar
+/opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.core.compatibility/1.0.0/org.apache.aries.blueprint.core.compatibility-1.0.0.jar
+/opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.core/1.5.0/org.apache.aries.blueprint.core-1.5.0.jar
+/opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.api/1.1.5/org.apache.aries.jmx.api-1.1.5.jar
+/opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.blueprint.api/1.1.5/org.apache.aries.jmx.blueprint.api-1.1.5.jar
+/opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.blueprint.core/1.1.5/org.apache.aries.jmx.blueprint.core-1.1.5.jar
+/opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.core/1.1.5/org.apache.aries.jmx.core-1.1.5.jar
+/opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.whiteboard/1.1.5/org.apache.aries.jmx.whiteboard-1.1.5.jar
+/opt/minion/system/org/apache/aries/org.apache.aries.util/1.1.1/org.apache.aries.util-1.1.1.jar
+/opt/minion/system/org/apache/aries/proxy/org.apache.aries.proxy.api/1.0.1/org.apache.aries.proxy.api-1.0.1.jar
+/opt/minion/system/org/apache/aries/proxy/org.apache.aries.proxy.impl/1.0.4/org.apache.aries.proxy.impl-1.0.4.jar
+/opt/minion/system/org/apache/felix/org.apache.felix.configadmin/1.8.8/org.apache.felix.configadmin-1.8.8.jar
+/opt/minion/system/org/apache/felix/org.apache.felix.fileinstall/3.5.0/org.apache.felix.fileinstall-3.5.0.jar
+/opt/minion/system/org/apache/felix/org.apache.felix.framework/5.4.0/org.apache.felix.framework-5.4.0.jar
+/opt/minion/system/org/apache/karaf/bundle/org.apache.karaf.bundle.blueprintstate/4.0.4/org.apache.karaf.bundle.blueprintstate-4.0.4.jar
+/opt/minion/system/org/apache/karaf/bundle/org.apache.karaf.bundle.core/4.0.4/org.apache.karaf.bundle.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/config/org.apache.karaf.config.core/4.0.4/org.apache.karaf.config.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.blueprint/4.0.4/org.apache.karaf.deployer.blueprint-4.0.4.jar
+/opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.features/4.0.4/org.apache.karaf.deployer.features-4.0.4.jar
+/opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.kar/4.0.4/org.apache.karaf.deployer.kar-4.0.4.jar
+/opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.wrap/4.0.4/org.apache.karaf.deployer.wrap-4.0.4.jar
+/opt/minion/system/org/apache/karaf/diagnostic/org.apache.karaf.diagnostic.boot/4.0.4/org.apache.karaf.diagnostic.boot-4.0.4.jar
+/opt/minion/system/org/apache/karaf/diagnostic/org.apache.karaf.diagnostic.core/4.0.4/org.apache.karaf.diagnostic.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/features/framework/4.0.4/framework-4.0.4-features.xml
+/opt/minion/system/org/apache/karaf/features/org.apache.karaf.features.command/4.0.4/org.apache.karaf.features.command-4.0.4.jar
+/opt/minion/system/org/apache/karaf/features/org.apache.karaf.features.core/4.0.4/org.apache.karaf.features.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/features/spring/4.0.4/spring-4.0.4-features.xml
+/opt/minion/system/org/apache/karaf/features/standard/4.0.4/standard-4.0.4-features.xml
+/opt/minion/system/org/apache/karaf/instance/org.apache.karaf.instance.core/4.0.4/org.apache.karaf.instance.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/jaas/blueprint/org.apache.karaf.jaas.blueprint.config/4.0.4/org.apache.karaf.jaas.blueprint.config-4.0.4.jar
+/opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.boot/4.0.4/org.apache.karaf.jaas.boot-4.0.4.jar
+/opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.command/4.0.4/org.apache.karaf.jaas.command-4.0.4.jar
+/opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.config/4.0.4/org.apache.karaf.jaas.config-4.0.4.jar
+/opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.modules/4.0.4/org.apache.karaf.jaas.modules-4.0.4.jar
+/opt/minion/system/org/apache/karaf/kar/org.apache.karaf.kar.core/4.0.4/org.apache.karaf.kar.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/log/org.apache.karaf.log.core/4.0.4/org.apache.karaf.log.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/management/org.apache.karaf.management.server/4.0.4/org.apache.karaf.management.server-4.0.4.jar
+/opt/minion/system/org/apache/karaf/org.apache.karaf.client/4.0.4/org.apache.karaf.client-4.0.4.jar
+/opt/minion/system/org/apache/karaf/package/org.apache.karaf.package.core/4.0.4/org.apache.karaf.package.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/service/org.apache.karaf.service.core/4.0.4/org.apache.karaf.service.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.commands/4.0.4/org.apache.karaf.shell.commands-4.0.4.jar
+/opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.console/4.0.4/org.apache.karaf.shell.console-4.0.4.jar
+/opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.core/4.0.4/org.apache.karaf.shell.core-4.0.4.jar
+/opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.ssh/4.0.4/org.apache.karaf.shell.ssh-4.0.4.jar
+/opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.table/4.0.4/org.apache.karaf.shell.table-4.0.4.jar
+/opt/minion/system/org/apache/karaf/system/org.apache.karaf.system.core/4.0.4/org.apache.karaf.system.core-4.0.4.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6/org.apache.servicemix.bundles.aopalliance-1.0_6.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11_1/org.apache.servicemix.bundles.not-yet-commons-ssl-0.3.11_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-aop-3.2.14.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-aop-4.0.7.RELEASE_3.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/4.1.7.RELEASE_2/org.apache.servicemix.bundles.spring-aop-4.1.7.RELEASE_2.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/4.2.3.RELEASE_1/org.apache.servicemix.bundles.spring-aop-4.2.3.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-beans-3.2.14.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-beans-4.0.7.RELEASE_3.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/4.1.7.RELEASE_2/org.apache.servicemix.bundles.spring-beans-4.1.7.RELEASE_2.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/4.2.3.RELEASE_1/org.apache.servicemix.bundles.spring-beans-4.2.3.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-context-support-3.2.14.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-context-support-4.0.7.RELEASE_3.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/4.1.7.RELEASE_2/org.apache.servicemix.bundles.spring-context-support-4.1.7.RELEASE_2.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/4.2.3.RELEASE_1/org.apache.servicemix.bundles.spring-context-support-4.2.3.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-context-3.2.14.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-context-4.0.7.RELEASE_3.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/4.1.7.RELEASE_2/org.apache.servicemix.bundles.spring-context-4.1.7.RELEASE_2.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/4.2.3.RELEASE_1/org.apache.servicemix.bundles.spring-context-4.2.3.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-core-3.2.14.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-core-4.0.7.RELEASE_3.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/4.1.7.RELEASE_2/org.apache.servicemix.bundles.spring-core-4.1.7.RELEASE_2.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/4.2.3.RELEASE_1/org.apache.servicemix.bundles.spring-core-4.2.3.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/3.2.14.RELEASE_1/org.apache.servicemix.bundles.spring-expression-3.2.14.RELEASE_1.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/4.0.7.RELEASE_3/org.apache.servicemix.bundles.spring-expression-4.0.7.RELEASE_3.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/4.1.7.RELEASE_2/org.apache.servicemix.bundles.spring-expression-4.1.7.RELEASE_2.jar
+/opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/4.2.3.RELEASE_1/org.apache.servicemix.bundles.spring-expression-4.2.3.RELEASE_1.jar
+/opt/minion/system/org/apache/sshd/sshd-core/0.14.0/sshd-core-0.14.0.jar
+/opt/minion/system/org/eclipse/birt/runtime/org.eclipse.osgi/3.10.2.v20150203-1939/org.eclipse.osgi-3.10.2.v20150203-1939.jar
+/opt/minion/system/org/jledit/core/0.2.1/core-0.2.1.jar
+/opt/minion/system/org/opennms/features/minion/container/extender/18.0.0-SNAPSHOT/extender-18.0.0-SNAPSHOT.jar
+/opt/minion/system/org/opennms/features/minion/container/features/18.0.0-SNAPSHOT/features-18.0.0-SNAPSHOT-features.xml
+/opt/minion/system/org/opennms/features/minion/container/scv/18.0.0-SNAPSHOT/scv-18.0.0-SNAPSHOT-blueprint-scv.xml
+/opt/minion/system/org/opennms/features/scv/org.opennms.features.scv.api/18.0.0-SNAPSHOT/org.opennms.features.scv.api-18.0.0-SNAPSHOT.jar
+/opt/minion/system/org/opennms/features/scv/org.opennms.features.scv.jceks-impl/18.0.0-SNAPSHOT/org.opennms.features.scv.jceks-impl-18.0.0-SNAPSHOT.jar
+/opt/minion/system/org/opennms/features/scv/org.opennms.features.scv.shell/18.0.0-SNAPSHOT/org.opennms.features.scv.shell-18.0.0-SNAPSHOT.jar
+/opt/minion/system/org/ops4j/pax/logging/pax-logging-api/1.8.5/pax-logging-api-1.8.5.jar
+/opt/minion/system/org/ops4j/pax/logging/pax-logging-service/1.8.5/pax-logging-service-1.8.5.jar
+/opt/minion/system/org/ops4j/pax/url/pax-url-aether/2.4.5/pax-url-aether-2.4.5.jar
+/opt/minion/system/org/ops4j/pax/url/pax-url-wrap/2.4.5/pax-url-wrap-2.4.5-uber.jar
+/opt/minion/system/org/ops4j/pax/web/pax-web-features/4.2.4/pax-web-features-4.2.4-features.xml
+/opt/minion/system/org/ow2/asm/asm-all/5.0.4/asm-all-5.0.4.jar
+/opt/minion/system/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+/opt/minion/system/org/springframework/spring-aop/3.1.4.RELEASE/spring-aop-3.1.4.RELEASE.jar
+/opt/minion/system/org/springframework/spring-asm/3.1.4.RELEASE/spring-asm-3.1.4.RELEASE.jar
+/opt/minion/system/org/springframework/spring-beans/3.1.4.RELEASE/spring-beans-3.1.4.RELEASE.jar
+/opt/minion/system/org/springframework/spring-context-support/3.1.4.RELEASE/spring-context-support-3.1.4.RELEASE.jar
+/opt/minion/system/org/springframework/spring-context/3.1.4.RELEASE/spring-context-3.1.4.RELEASE.jar
+/opt/minion/system/org/springframework/spring-core/3.1.4.RELEASE/spring-core-3.1.4.RELEASE.jar
+/opt/minion/system/org/springframework/spring-expression/3.1.4.RELEASE/spring-expression-3.1.4.RELEASE.jar
+pkg/minion.inc
+pkg/minion.xml
 %%DATADIR%%/info.xml
 @dir /etc/inc/priv
+@dir /etc/inc
+@dir /opt/minion/bin
+@dir /opt/minion/deploy
+@dir /opt/minion/etc/featuresBoot.d
+@dir /opt/minion/etc
+@dir /opt/minion/lib/boot
+@dir /opt/minion/lib/endorsed
+@dir /opt/minion/lib/ext
+@dir /opt/minion/lib
+@dir /opt/minion/repositories/core/commons-net/commons-net/3.3
+@dir /opt/minion/repositories/core/commons-net/commons-net
+@dir /opt/minion/repositories/core/commons-net
+@dir /opt/minion/repositories/core/commons-pool/commons-pool/1.6
+@dir /opt/minion/repositories/core/commons-pool/commons-pool
+@dir /opt/minion/repositories/core/commons-pool
+@dir /opt/minion/repositories/core/javax/annotation/javax.annotation-api/1.2
+@dir /opt/minion/repositories/core/javax/annotation/javax.annotation-api
+@dir /opt/minion/repositories/core/javax/annotation
+@dir /opt/minion/repositories/core/javax
+@dir /opt/minion/repositories/core/org/apache/activemq/activemq-camel/5.10.0
+@dir /opt/minion/repositories/core/org/apache/activemq/activemq-camel
+@dir /opt/minion/repositories/core/org/apache/activemq/activemq-karaf/5.10.0
+@dir /opt/minion/repositories/core/org/apache/activemq/activemq-karaf
+@dir /opt/minion/repositories/core/org/apache/activemq/activemq-osgi/5.10.0
+@dir /opt/minion/repositories/core/org/apache/activemq/activemq-osgi
+@dir /opt/minion/repositories/core/org/apache/activemq
+@dir /opt/minion/repositories/core/org/apache/camel/camel-blueprint/2.14.1
+@dir /opt/minion/repositories/core/org/apache/camel/camel-blueprint
+@dir /opt/minion/repositories/core/org/apache/camel/camel-core/2.14.1
+@dir /opt/minion/repositories/core/org/apache/camel/camel-core
+@dir /opt/minion/repositories/core/org/apache/camel/camel-jaxb/2.14.1
+@dir /opt/minion/repositories/core/org/apache/camel/camel-jaxb
+@dir /opt/minion/repositories/core/org/apache/camel/camel-jms/2.14.1
+@dir /opt/minion/repositories/core/org/apache/camel/camel-jms
+@dir /opt/minion/repositories/core/org/apache/camel/camel-spring/2.14.1
+@dir /opt/minion/repositories/core/org/apache/camel/camel-spring
+@dir /opt/minion/repositories/core/org/apache/camel/karaf/apache-camel/2.14.1
+@dir /opt/minion/repositories/core/org/apache/camel/karaf/apache-camel
+@dir /opt/minion/repositories/core/org/apache/camel/karaf/camel-karaf-commands/2.14.1
+@dir /opt/minion/repositories/core/org/apache/camel/karaf/camel-karaf-commands
+@dir /opt/minion/repositories/core/org/apache/camel/karaf
+@dir /opt/minion/repositories/core/org/apache/camel
+@dir /opt/minion/repositories/core/org/apache/cxf/karaf/apache-cxf/3.0.2
+@dir /opt/minion/repositories/core/org/apache/cxf/karaf/apache-cxf
+@dir /opt/minion/repositories/core/org/apache/cxf/karaf
+@dir /opt/minion/repositories/core/org/apache/cxf
+@dir /opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1
+@dir /opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-annotation_1.0_spec
+@dir /opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1
+@dir /opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec
+@dir /opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1
+@dir /opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jms_1.1_spec
+@dir /opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1
+@dir /opt/minion/repositories/core/org/apache/geronimo/specs/geronimo-jta_1.1_spec
+@dir /opt/minion/repositories/core/org/apache/geronimo/specs
+@dir /opt/minion/repositories/core/org/apache/geronimo
+@dir /opt/minion/repositories/core/org/apache/jclouds/karaf/jclouds-karaf/1.8.0
+@dir /opt/minion/repositories/core/org/apache/jclouds/karaf/jclouds-karaf
+@dir /opt/minion/repositories/core/org/apache/jclouds/karaf
+@dir /opt/minion/repositories/core/org/apache/jclouds
+@dir /opt/minion/repositories/core/org/apache/karaf/bundle/org.apache.karaf.bundle.springstate/4.0.4
+@dir /opt/minion/repositories/core/org/apache/karaf/bundle/org.apache.karaf.bundle.springstate
+@dir /opt/minion/repositories/core/org/apache/karaf/bundle
+@dir /opt/minion/repositories/core/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/4.0.4
+@dir /opt/minion/repositories/core/org/apache/karaf/deployer/org.apache.karaf.deployer.spring
+@dir /opt/minion/repositories/core/org/apache/karaf/deployer
+@dir /opt/minion/repositories/core/org/apache/karaf/features/spring/4.0.4
+@dir /opt/minion/repositories/core/org/apache/karaf/features/spring
+@dir /opt/minion/repositories/core/org/apache/karaf/features/standard/4.0.4
+@dir /opt/minion/repositories/core/org/apache/karaf/features/standard
+@dir /opt/minion/repositories/core/org/apache/karaf/features
+@dir /opt/minion/repositories/core/org/apache/karaf
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.cglib/3.2.0_1
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.cglib
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.jaxb-impl/2.2.1.1_2
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.jaxb-impl
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-jms/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-jms
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-tx/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-tx
+@dir /opt/minion/repositories/core/org/apache/servicemix/bundles
+@dir /opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.activation-api-1.1/2.2.0
+@dir /opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.activation-api-1.1
+@dir /opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2/2.2.0
+@dir /opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2
+@dir /opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0
+@dir /opt/minion/repositories/core/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0
+@dir /opt/minion/repositories/core/org/apache/servicemix/specs
+@dir /opt/minion/repositories/core/org/apache/servicemix
+@dir /opt/minion/repositories/core/org/apache/xbean/xbean-spring/3.16
+@dir /opt/minion/repositories/core/org/apache/xbean/xbean-spring
+@dir /opt/minion/repositories/core/org/apache/xbean
+@dir /opt/minion/repositories/core/org/apache/zookeeper/zookeeper/3.4.5
+@dir /opt/minion/repositories/core/org/apache/zookeeper/zookeeper
+@dir /opt/minion/repositories/core/org/apache/zookeeper
+@dir /opt/minion/repositories/core/org/apache
+@dir /opt/minion/repositories/core/org/codehaus/woodstox/stax2-api/3.1.4
+@dir /opt/minion/repositories/core/org/codehaus/woodstox/stax2-api
+@dir /opt/minion/repositories/core/org/codehaus/woodstox/woodstox-core-asl/4.2.1
+@dir /opt/minion/repositories/core/org/codehaus/woodstox/woodstox-core-asl
+@dir /opt/minion/repositories/core/org/codehaus/woodstox
+@dir /opt/minion/repositories/core/org/codehaus
+@dir /opt/minion/repositories/core/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.6.4
+@dir /opt/minion/repositories/core/org/jvnet/jaxb2_commons/jaxb2-basics-runtime
+@dir /opt/minion/repositories/core/org/jvnet/jaxb2_commons
+@dir /opt/minion/repositories/core/org/jvnet
+@dir /opt/minion/repositories/core/org/opennms/features/minion/core-api/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/core/org/opennms/features/minion/core-api
+@dir /opt/minion/repositories/core/org/opennms/features/minion/core-features/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/core/org/opennms/features/minion/core-features
+@dir /opt/minion/repositories/core/org/opennms/features/minion/core-impl/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/core/org/opennms/features/minion/core-impl
+@dir /opt/minion/repositories/core/org/opennms/features/minion/shell/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/core/org/opennms/features/minion/shell
+@dir /opt/minion/repositories/core/org/opennms/features/minion
+@dir /opt/minion/repositories/core/org/opennms/features
+@dir /opt/minion/repositories/core/org/opennms
+@dir /opt/minion/repositories/core/org/ops4j/pax/web/pax-web-features/4.2.4
+@dir /opt/minion/repositories/core/org/ops4j/pax/web/pax-web-features
+@dir /opt/minion/repositories/core/org/ops4j/pax/web
+@dir /opt/minion/repositories/core/org/ops4j/pax
+@dir /opt/minion/repositories/core/org/ops4j
+@dir /opt/minion/repositories/core/org/springframework/osgi/spring-osgi-annotation/1.2.1
+@dir /opt/minion/repositories/core/org/springframework/osgi/spring-osgi-annotation
+@dir /opt/minion/repositories/core/org/springframework/osgi/spring-osgi-core/1.2.1
+@dir /opt/minion/repositories/core/org/springframework/osgi/spring-osgi-core
+@dir /opt/minion/repositories/core/org/springframework/osgi/spring-osgi-extender/1.2.1
+@dir /opt/minion/repositories/core/org/springframework/osgi/spring-osgi-extender
+@dir /opt/minion/repositories/core/org/springframework/osgi/spring-osgi-io/1.2.1
+@dir /opt/minion/repositories/core/org/springframework/osgi/spring-osgi-io
+@dir /opt/minion/repositories/core/org/springframework/osgi
+@dir /opt/minion/repositories/core/org/springframework
+@dir /opt/minion/repositories/core/org
+@dir /opt/minion/repositories/core
+@dir /opt/minion/repositories/default/antlr/antlr/2.7.7
+@dir /opt/minion/repositories/default/antlr/antlr
+@dir /opt/minion/repositories/default/antlr
+@dir /opt/minion/repositories/default/c3p0/c3p0/0.9.1.2
+@dir /opt/minion/repositories/default/c3p0/c3p0
+@dir /opt/minion/repositories/default/c3p0
+@dir /opt/minion/repositories/default/com/atomikos/atomikos-util/3.9.2
+@dir /opt/minion/repositories/default/com/atomikos/atomikos-util
+@dir /opt/minion/repositories/default/com/atomikos/transactions/3.9.2
+@dir /opt/minion/repositories/default/com/atomikos/transactions
+@dir /opt/minion/repositories/default/com/atomikos/transactions-api/3.9.2
+@dir /opt/minion/repositories/default/com/atomikos/transactions-api
+@dir /opt/minion/repositories/default/com/atomikos/transactions-jdbc/3.9.2
+@dir /opt/minion/repositories/default/com/atomikos/transactions-jdbc
+@dir /opt/minion/repositories/default/com/atomikos/transactions-jta/3.9.2
+@dir /opt/minion/repositories/default/com/atomikos/transactions-jta
+@dir /opt/minion/repositories/default/com/atomikos
+@dir /opt/minion/repositories/default/com/google/guava/guava/17.0
+@dir /opt/minion/repositories/default/com/google/guava/guava
+@dir /opt/minion/repositories/default/com/google/guava
+@dir /opt/minion/repositories/default/com/google
+@dir /opt/minion/repositories/default/com/googlecode/concurrent-locks/concurrent-locks/1.0.0
+@dir /opt/minion/repositories/default/com/googlecode/concurrent-locks/concurrent-locks
+@dir /opt/minion/repositories/default/com/googlecode/concurrent-locks
+@dir /opt/minion/repositories/default/com/googlecode
+@dir /opt/minion/repositories/default/com
+@dir /opt/minion/repositories/default/commons-codec/commons-codec/1.9
+@dir /opt/minion/repositories/default/commons-codec/commons-codec
+@dir /opt/minion/repositories/default/commons-codec
+@dir /opt/minion/repositories/default/commons-collections/commons-collections/3.2.2
+@dir /opt/minion/repositories/default/commons-collections/commons-collections
+@dir /opt/minion/repositories/default/commons-collections
+@dir /opt/minion/repositories/default/commons-io/commons-io/2.4
+@dir /opt/minion/repositories/default/commons-io/commons-io
+@dir /opt/minion/repositories/default/commons-io
+@dir /opt/minion/repositories/default/commons-lang/commons-lang/2.6
+@dir /opt/minion/repositories/default/commons-lang/commons-lang
+@dir /opt/minion/repositories/default/commons-lang
+@dir /opt/minion/repositories/default/commons-net/commons-net/3.3
+@dir /opt/minion/repositories/default/commons-net/commons-net
+@dir /opt/minion/repositories/default/commons-net
+@dir /opt/minion/repositories/default/commons-pool/commons-pool/1.6
+@dir /opt/minion/repositories/default/commons-pool/commons-pool
+@dir /opt/minion/repositories/default/commons-pool
+@dir /opt/minion/repositories/default/dom4j/dom4j/1.6.1
+@dir /opt/minion/repositories/default/dom4j/dom4j
+@dir /opt/minion/repositories/default/dom4j
+@dir /opt/minion/repositories/default/javax/transaction/jta/1.1
+@dir /opt/minion/repositories/default/javax/transaction/jta
+@dir /opt/minion/repositories/default/javax/transaction
+@dir /opt/minion/repositories/default/javax
+@dir /opt/minion/repositories/default/net/java/dev/jna/jna/4.2.1
+@dir /opt/minion/repositories/default/net/java/dev/jna/jna
+@dir /opt/minion/repositories/default/net/java/dev/jna/jna-platform/4.2.1
+@dir /opt/minion/repositories/default/net/java/dev/jna/jna-platform
+@dir /opt/minion/repositories/default/net/java/dev/jna
+@dir /opt/minion/repositories/default/net/java/dev
+@dir /opt/minion/repositories/default/net/java
+@dir /opt/minion/repositories/default/net
+@dir /opt/minion/repositories/default/org/apache/activemq/activemq-camel/5.10.0
+@dir /opt/minion/repositories/default/org/apache/activemq/activemq-camel
+@dir /opt/minion/repositories/default/org/apache/activemq/activemq-karaf/5.10.0
+@dir /opt/minion/repositories/default/org/apache/activemq/activemq-karaf
+@dir /opt/minion/repositories/default/org/apache/activemq/activemq-osgi/5.10.0
+@dir /opt/minion/repositories/default/org/apache/activemq/activemq-osgi
+@dir /opt/minion/repositories/default/org/apache/activemq
+@dir /opt/minion/repositories/default/org/apache/camel/camel-blueprint/2.14.1
+@dir /opt/minion/repositories/default/org/apache/camel/camel-blueprint
+@dir /opt/minion/repositories/default/org/apache/camel/camel-core/2.14.1
+@dir /opt/minion/repositories/default/org/apache/camel/camel-core
+@dir /opt/minion/repositories/default/org/apache/camel/camel-jms/2.14.1
+@dir /opt/minion/repositories/default/org/apache/camel/camel-jms
+@dir /opt/minion/repositories/default/org/apache/camel/camel-spring/2.14.1
+@dir /opt/minion/repositories/default/org/apache/camel/camel-spring
+@dir /opt/minion/repositories/default/org/apache/camel/karaf/apache-camel/2.14.1
+@dir /opt/minion/repositories/default/org/apache/camel/karaf/apache-camel
+@dir /opt/minion/repositories/default/org/apache/camel/karaf/camel-karaf-commands/2.14.1
+@dir /opt/minion/repositories/default/org/apache/camel/karaf/camel-karaf-commands
+@dir /opt/minion/repositories/default/org/apache/camel/karaf
+@dir /opt/minion/repositories/default/org/apache/camel
+@dir /opt/minion/repositories/default/org/apache/cxf/karaf/apache-cxf/3.0.2
+@dir /opt/minion/repositories/default/org/apache/cxf/karaf/apache-cxf
+@dir /opt/minion/repositories/default/org/apache/cxf/karaf
+@dir /opt/minion/repositories/default/org/apache/cxf
+@dir /opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1
+@dir /opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-annotation_1.0_spec
+@dir /opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1
+@dir /opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec
+@dir /opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1
+@dir /opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jms_1.1_spec
+@dir /opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1
+@dir /opt/minion/repositories/default/org/apache/geronimo/specs/geronimo-jta_1.1_spec
+@dir /opt/minion/repositories/default/org/apache/geronimo/specs
+@dir /opt/minion/repositories/default/org/apache/geronimo
+@dir /opt/minion/repositories/default/org/apache/jclouds/karaf/jclouds-karaf/1.8.0
+@dir /opt/minion/repositories/default/org/apache/jclouds/karaf/jclouds-karaf
+@dir /opt/minion/repositories/default/org/apache/jclouds/karaf
+@dir /opt/minion/repositories/default/org/apache/jclouds
+@dir /opt/minion/repositories/default/org/apache/karaf/bundle/org.apache.karaf.bundle.springstate/4.0.4
+@dir /opt/minion/repositories/default/org/apache/karaf/bundle/org.apache.karaf.bundle.springstate
+@dir /opt/minion/repositories/default/org/apache/karaf/bundle
+@dir /opt/minion/repositories/default/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/4.0.4
+@dir /opt/minion/repositories/default/org/apache/karaf/deployer/org.apache.karaf.deployer.spring
+@dir /opt/minion/repositories/default/org/apache/karaf/deployer
+@dir /opt/minion/repositories/default/org/apache/karaf/features/spring/4.0.4
+@dir /opt/minion/repositories/default/org/apache/karaf/features/spring
+@dir /opt/minion/repositories/default/org/apache/karaf/features/standard/4.0.4
+@dir /opt/minion/repositories/default/org/apache/karaf/features/standard
+@dir /opt/minion/repositories/default/org/apache/karaf/features
+@dir /opt/minion/repositories/default/org/apache/karaf
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.cglib/3.2.0_1
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.cglib
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.jaxb-impl/2.2.1.1_2
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.jaxb-impl
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/4.0.7.RELEASE_3
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/4.0.7.RELEASE_3
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/4.0.7.RELEASE_3
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/4.0.7.RELEASE_3
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/4.0.7.RELEASE_3
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/4.0.7.RELEASE_3
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-jdbc/4.0.7.RELEASE_3
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-jdbc
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-jms/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-jms
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-orm/4.0.7.RELEASE_3
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-orm
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-tx/3.2.14.RELEASE_1
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-tx/4.0.7.RELEASE_3
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-tx
+@dir /opt/minion/repositories/default/org/apache/servicemix/bundles
+@dir /opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.activation-api-1.1/2.2.0
+@dir /opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.activation-api-1.1
+@dir /opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2/2.2.0
+@dir /opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.jaxb-api-2.2
+@dir /opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0
+@dir /opt/minion/repositories/default/org/apache/servicemix/specs/org.apache.servicemix.specs.stax-api-1.0
+@dir /opt/minion/repositories/default/org/apache/servicemix/specs
+@dir /opt/minion/repositories/default/org/apache/servicemix
+@dir /opt/minion/repositories/default/org/apache/xbean/xbean-spring/3.16
+@dir /opt/minion/repositories/default/org/apache/xbean/xbean-spring
+@dir /opt/minion/repositories/default/org/apache/xbean
+@dir /opt/minion/repositories/default/org/apache/zookeeper/zookeeper/3.4.5
+@dir /opt/minion/repositories/default/org/apache/zookeeper/zookeeper
+@dir /opt/minion/repositories/default/org/apache/zookeeper
+@dir /opt/minion/repositories/default/org/apache
+@dir /opt/minion/repositories/default/org/codehaus/castor/castor/1.1.2.1
+@dir /opt/minion/repositories/default/org/codehaus/castor/castor
+@dir /opt/minion/repositories/default/org/codehaus/castor
+@dir /opt/minion/repositories/default/org/codehaus/jackson/jackson-core-asl/1.9.13
+@dir /opt/minion/repositories/default/org/codehaus/jackson/jackson-core-asl
+@dir /opt/minion/repositories/default/org/codehaus/jackson/jackson-mapper-asl/1.9.13
+@dir /opt/minion/repositories/default/org/codehaus/jackson/jackson-mapper-asl
+@dir /opt/minion/repositories/default/org/codehaus/jackson
+@dir /opt/minion/repositories/default/org/codehaus/woodstox/stax2-api/3.1.4
+@dir /opt/minion/repositories/default/org/codehaus/woodstox/stax2-api
+@dir /opt/minion/repositories/default/org/codehaus/woodstox/woodstox-core-asl/4.2.1
+@dir /opt/minion/repositories/default/org/codehaus/woodstox/woodstox-core-asl
+@dir /opt/minion/repositories/default/org/codehaus/woodstox
+@dir /opt/minion/repositories/default/org/codehaus
+@dir /opt/minion/repositories/default/org/dnsjava/dnsjava/2.1.3
+@dir /opt/minion/repositories/default/org/dnsjava/dnsjava
+@dir /opt/minion/repositories/default/org/dnsjava
+@dir /opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.1
+@dir /opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.antlr
+@dir /opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.1
+@dir /opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.asm
+@dir /opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.core/2.5.1
+@dir /opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.core
+@dir /opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.moxy/2.5.1
+@dir /opt/minion/repositories/default/org/eclipse/persistence/org.eclipse.persistence.moxy
+@dir /opt/minion/repositories/default/org/eclipse/persistence
+@dir /opt/minion/repositories/default/org/eclipse
+@dir /opt/minion/repositories/default/org/hibernate/hibernate-commons-annotations/3.2.0.Final
+@dir /opt/minion/repositories/default/org/hibernate/hibernate-commons-annotations
+@dir /opt/minion/repositories/default/org/hibernate/hibernate-core/3.6.10.Final
+@dir /opt/minion/repositories/default/org/hibernate/hibernate-core
+@dir /opt/minion/repositories/default/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final
+@dir /opt/minion/repositories/default/org/hibernate/javax/persistence/hibernate-jpa-2.0-api
+@dir /opt/minion/repositories/default/org/hibernate/javax/persistence
+@dir /opt/minion/repositories/default/org/hibernate/javax
+@dir /opt/minion/repositories/default/org/hibernate
+@dir /opt/minion/repositories/default/org/jasypt/jasypt/1.9.0
+@dir /opt/minion/repositories/default/org/jasypt/jasypt
+@dir /opt/minion/repositories/default/org/jasypt
+@dir /opt/minion/repositories/default/org/json/json/20140107
+@dir /opt/minion/repositories/default/org/json/json
+@dir /opt/minion/repositories/default/org/json
+@dir /opt/minion/repositories/default/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.6.4
+@dir /opt/minion/repositories/default/org/jvnet/jaxb2_commons/jaxb2-basics-runtime
+@dir /opt/minion/repositories/default/org/jvnet/jaxb2_commons
+@dir /opt/minion/repositories/default/org/jvnet
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.api/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.api
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.castor-properties/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.castor-properties
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.criteria/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.criteria
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.daemon/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.daemon
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.db/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.db
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.icmp-jna/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.icmp-jna
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.lib/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.lib
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.logging/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.logging
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.soa/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.soa
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.spring/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.spring
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.xml/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/org.opennms.core.xml
+@dir /opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.api/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.api
+@dir /opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.commands/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.commands
+@dir /opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.implementations.snmp4j/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.implementations.snmp4j
+@dir /opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.joesnmp/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/core/snmp/org.opennms.core.snmp.joesnmp
+@dir /opt/minion/repositories/default/org/opennms/core/snmp
+@dir /opt/minion/repositories/default/org/opennms/core
+@dir /opt/minion/repositories/default/org/opennms/features/events/org.opennms.features.events.api/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/features/events/org.opennms.features.events.api
+@dir /opt/minion/repositories/default/org/opennms/features/events
+@dir /opt/minion/repositories/default/org/opennms/features/org.opennms.features.discovery/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/features/org.opennms.features.discovery
+@dir /opt/minion/repositories/default/org/opennms/features/poller/org.opennms.features.poller.api/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/features/poller/org.opennms.features.poller.api
+@dir /opt/minion/repositories/default/org/opennms/features/poller
+@dir /opt/minion/repositories/default/org/opennms/features
+@dir /opt/minion/repositories/default/org/opennms/karaf/opennms/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/karaf/opennms
+@dir /opt/minion/repositories/default/org/opennms/karaf
+@dir /opt/minion/repositories/default/org/opennms/lib/org.opennms.lib.tracker/0.7
+@dir /opt/minion/repositories/default/org/opennms/lib/org.opennms.lib.tracker
+@dir /opt/minion/repositories/default/org/opennms/lib
+@dir /opt/minion/repositories/default/org/opennms/opennms-config/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-config
+@dir /opt/minion/repositories/default/org/opennms/opennms-config-api/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-config-api
+@dir /opt/minion/repositories/default/org/opennms/opennms-config-jaxb/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-config-jaxb
+@dir /opt/minion/repositories/default/org/opennms/opennms-config-model/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-config-model
+@dir /opt/minion/repositories/default/org/opennms/opennms-dao-api/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-dao-api
+@dir /opt/minion/repositories/default/org/opennms/opennms-icmp-api/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-icmp-api
+@dir /opt/minion/repositories/default/org/opennms/opennms-icmp-jna/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-icmp-jna
+@dir /opt/minion/repositories/default/org/opennms/opennms-model/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-model
+@dir /opt/minion/repositories/default/org/opennms/opennms-rrd-api/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-rrd-api
+@dir /opt/minion/repositories/default/org/opennms/opennms-util/18.0.0-SNAPSHOT
+@dir /opt/minion/repositories/default/org/opennms/opennms-util
+@dir /opt/minion/repositories/default/org/opennms
+@dir /opt/minion/repositories/default/org/ops4j/pax/web/pax-web-features/4.2.4
+@dir /opt/minion/repositories/default/org/ops4j/pax/web/pax-web-features
+@dir /opt/minion/repositories/default/org/ops4j/pax/web
+@dir /opt/minion/repositories/default/org/ops4j/pax
+@dir /opt/minion/repositories/default/org/ops4j
+@dir /opt/minion/repositories/default/org/postgresql/postgresql/9.3-1100-jdbc4
+@dir /opt/minion/repositories/default/org/postgresql/postgresql
+@dir /opt/minion/repositories/default/org/postgresql
+@dir /opt/minion/repositories/default/org/snmp4j/snmp4j/2.3.1
+@dir /opt/minion/repositories/default/org/snmp4j/snmp4j
+@dir /opt/minion/repositories/default/org/snmp4j
+@dir /opt/minion/repositories/default/org/springframework/osgi/spring-osgi-annotation/1.2.1
+@dir /opt/minion/repositories/default/org/springframework/osgi/spring-osgi-annotation
+@dir /opt/minion/repositories/default/org/springframework/osgi/spring-osgi-core/1.2.1
+@dir /opt/minion/repositories/default/org/springframework/osgi/spring-osgi-core
+@dir /opt/minion/repositories/default/org/springframework/osgi/spring-osgi-extender/1.2.1
+@dir /opt/minion/repositories/default/org/springframework/osgi/spring-osgi-extender
+@dir /opt/minion/repositories/default/org/springframework/osgi/spring-osgi-io/1.2.1
+@dir /opt/minion/repositories/default/org/springframework/osgi/spring-osgi-io
+@dir /opt/minion/repositories/default/org/springframework/osgi
+@dir /opt/minion/repositories/default/org/springframework
+@dir /opt/minion/repositories/default/org
+@dir /opt/minion/repositories/default/oro/oro/2.0.8
+@dir /opt/minion/repositories/default/oro/oro
+@dir /opt/minion/repositories/default/oro
+@dir /opt/minion/repositories/default
+@dir /opt/minion/repositories
+@dir /opt/minion/system/com/google/guava/guava/17.0
+@dir /opt/minion/system/com/google/guava/guava
+@dir /opt/minion/system/com/google/guava
+@dir /opt/minion/system/com/google
+@dir /opt/minion/system/com
+@dir /opt/minion/system/commons-codec/commons-codec/1.9
+@dir /opt/minion/system/commons-codec/commons-codec
+@dir /opt/minion/system/commons-codec
+@dir /opt/minion/system/jline/jline/2.13
+@dir /opt/minion/system/jline/jline
+@dir /opt/minion/system/jline
+@dir /opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.api/1.0.1
+@dir /opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.api
+@dir /opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.cm/1.0.7
+@dir /opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.cm
+@dir /opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.core/1.5.0
+@dir /opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.core
+@dir /opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.core.compatibility/1.0.0
+@dir /opt/minion/system/org/apache/aries/blueprint/org.apache.aries.blueprint.core.compatibility
+@dir /opt/minion/system/org/apache/aries/blueprint
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.api/1.1.5
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.api
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.blueprint.api/1.1.5
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.blueprint.api
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.blueprint.core/1.1.5
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.blueprint.core
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.core/1.1.5
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.core
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.whiteboard/1.1.5
+@dir /opt/minion/system/org/apache/aries/jmx/org.apache.aries.jmx.whiteboard
+@dir /opt/minion/system/org/apache/aries/jmx
+@dir /opt/minion/system/org/apache/aries/org.apache.aries.util/1.1.1
+@dir /opt/minion/system/org/apache/aries/org.apache.aries.util
+@dir /opt/minion/system/org/apache/aries/proxy/org.apache.aries.proxy.api/1.0.1
+@dir /opt/minion/system/org/apache/aries/proxy/org.apache.aries.proxy.api
+@dir /opt/minion/system/org/apache/aries/proxy/org.apache.aries.proxy.impl/1.0.4
+@dir /opt/minion/system/org/apache/aries/proxy/org.apache.aries.proxy.impl
+@dir /opt/minion/system/org/apache/aries/proxy
+@dir /opt/minion/system/org/apache/aries
+@dir /opt/minion/system/org/apache/felix/org.apache.felix.configadmin/1.8.8
+@dir /opt/minion/system/org/apache/felix/org.apache.felix.configadmin
+@dir /opt/minion/system/org/apache/felix/org.apache.felix.fileinstall/3.5.0
+@dir /opt/minion/system/org/apache/felix/org.apache.felix.fileinstall
+@dir /opt/minion/system/org/apache/felix/org.apache.felix.framework/5.4.0
+@dir /opt/minion/system/org/apache/felix/org.apache.felix.framework
+@dir /opt/minion/system/org/apache/felix
+@dir /opt/minion/system/org/apache/karaf/bundle/org.apache.karaf.bundle.blueprintstate/4.0.4
+@dir /opt/minion/system/org/apache/karaf/bundle/org.apache.karaf.bundle.blueprintstate
+@dir /opt/minion/system/org/apache/karaf/bundle/org.apache.karaf.bundle.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/bundle/org.apache.karaf.bundle.core
+@dir /opt/minion/system/org/apache/karaf/bundle
+@dir /opt/minion/system/org/apache/karaf/config/org.apache.karaf.config.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/config/org.apache.karaf.config.core
+@dir /opt/minion/system/org/apache/karaf/config
+@dir /opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.blueprint/4.0.4
+@dir /opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.blueprint
+@dir /opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.features/4.0.4
+@dir /opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.features
+@dir /opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.kar/4.0.4
+@dir /opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.kar
+@dir /opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.wrap/4.0.4
+@dir /opt/minion/system/org/apache/karaf/deployer/org.apache.karaf.deployer.wrap
+@dir /opt/minion/system/org/apache/karaf/deployer
+@dir /opt/minion/system/org/apache/karaf/diagnostic/org.apache.karaf.diagnostic.boot/4.0.4
+@dir /opt/minion/system/org/apache/karaf/diagnostic/org.apache.karaf.diagnostic.boot
+@dir /opt/minion/system/org/apache/karaf/diagnostic/org.apache.karaf.diagnostic.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/diagnostic/org.apache.karaf.diagnostic.core
+@dir /opt/minion/system/org/apache/karaf/diagnostic
+@dir /opt/minion/system/org/apache/karaf/features/framework/4.0.4
+@dir /opt/minion/system/org/apache/karaf/features/framework
+@dir /opt/minion/system/org/apache/karaf/features/org.apache.karaf.features.command/4.0.4
+@dir /opt/minion/system/org/apache/karaf/features/org.apache.karaf.features.command
+@dir /opt/minion/system/org/apache/karaf/features/org.apache.karaf.features.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/features/org.apache.karaf.features.core
+@dir /opt/minion/system/org/apache/karaf/features/spring/4.0.4
+@dir /opt/minion/system/org/apache/karaf/features/spring
+@dir /opt/minion/system/org/apache/karaf/features/standard/4.0.4
+@dir /opt/minion/system/org/apache/karaf/features/standard
+@dir /opt/minion/system/org/apache/karaf/features
+@dir /opt/minion/system/org/apache/karaf/instance/org.apache.karaf.instance.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/instance/org.apache.karaf.instance.core
+@dir /opt/minion/system/org/apache/karaf/instance
+@dir /opt/minion/system/org/apache/karaf/jaas/blueprint/org.apache.karaf.jaas.blueprint.config/4.0.4
+@dir /opt/minion/system/org/apache/karaf/jaas/blueprint/org.apache.karaf.jaas.blueprint.config
+@dir /opt/minion/system/org/apache/karaf/jaas/blueprint
+@dir /opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.boot/4.0.4
+@dir /opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.boot
+@dir /opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.command/4.0.4
+@dir /opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.command
+@dir /opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.config/4.0.4
+@dir /opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.config
+@dir /opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.modules/4.0.4
+@dir /opt/minion/system/org/apache/karaf/jaas/org.apache.karaf.jaas.modules
+@dir /opt/minion/system/org/apache/karaf/jaas
+@dir /opt/minion/system/org/apache/karaf/kar/org.apache.karaf.kar.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/kar/org.apache.karaf.kar.core
+@dir /opt/minion/system/org/apache/karaf/kar
+@dir /opt/minion/system/org/apache/karaf/log/org.apache.karaf.log.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/log/org.apache.karaf.log.core
+@dir /opt/minion/system/org/apache/karaf/log
+@dir /opt/minion/system/org/apache/karaf/management/org.apache.karaf.management.server/4.0.4
+@dir /opt/minion/system/org/apache/karaf/management/org.apache.karaf.management.server
+@dir /opt/minion/system/org/apache/karaf/management
+@dir /opt/minion/system/org/apache/karaf/org.apache.karaf.client/4.0.4
+@dir /opt/minion/system/org/apache/karaf/org.apache.karaf.client
+@dir /opt/minion/system/org/apache/karaf/package/org.apache.karaf.package.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/package/org.apache.karaf.package.core
+@dir /opt/minion/system/org/apache/karaf/package
+@dir /opt/minion/system/org/apache/karaf/service/org.apache.karaf.service.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/service/org.apache.karaf.service.core
+@dir /opt/minion/system/org/apache/karaf/service
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.commands/4.0.4
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.commands
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.console/4.0.4
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.console
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.core
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.ssh/4.0.4
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.ssh
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.table/4.0.4
+@dir /opt/minion/system/org/apache/karaf/shell/org.apache.karaf.shell.table
+@dir /opt/minion/system/org/apache/karaf/shell
+@dir /opt/minion/system/org/apache/karaf/system/org.apache.karaf.system.core/4.0.4
+@dir /opt/minion/system/org/apache/karaf/system/org.apache.karaf.system.core
+@dir /opt/minion/system/org/apache/karaf/system
+@dir /opt/minion/system/org/apache/karaf
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.not-yet-commons-ssl
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/3.2.14.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/4.0.7.RELEASE_3
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/4.1.7.RELEASE_2
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop/4.2.3.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-aop
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/3.2.14.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/4.0.7.RELEASE_3
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/4.1.7.RELEASE_2
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans/4.2.3.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-beans
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/3.2.14.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/4.0.7.RELEASE_3
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/4.1.7.RELEASE_2
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context/4.2.3.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/3.2.14.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/4.0.7.RELEASE_3
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/4.1.7.RELEASE_2
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support/4.2.3.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-context-support
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/3.2.14.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/4.0.7.RELEASE_3
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/4.1.7.RELEASE_2
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core/4.2.3.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-core
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/3.2.14.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/4.0.7.RELEASE_3
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/4.1.7.RELEASE_2
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression/4.2.3.RELEASE_1
+@dir /opt/minion/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.spring-expression
+@dir /opt/minion/system/org/apache/servicemix/bundles
+@dir /opt/minion/system/org/apache/servicemix
+@dir /opt/minion/system/org/apache/sshd/sshd-core/0.14.0
+@dir /opt/minion/system/org/apache/sshd/sshd-core
+@dir /opt/minion/system/org/apache/sshd
+@dir /opt/minion/system/org/apache
+@dir /opt/minion/system/org/eclipse/birt/runtime/org.eclipse.osgi/3.10.2.v20150203-1939
+@dir /opt/minion/system/org/eclipse/birt/runtime/org.eclipse.osgi
+@dir /opt/minion/system/org/eclipse/birt/runtime
+@dir /opt/minion/system/org/eclipse/birt
+@dir /opt/minion/system/org/eclipse
+@dir /opt/minion/system/org/jledit/core/0.2.1
+@dir /opt/minion/system/org/jledit/core
+@dir /opt/minion/system/org/jledit
+@dir /opt/minion/system/org/opennms/features/minion/container/extender/18.0.0-SNAPSHOT
+@dir /opt/minion/system/org/opennms/features/minion/container/extender
+@dir /opt/minion/system/org/opennms/features/minion/container/features/18.0.0-SNAPSHOT
+@dir /opt/minion/system/org/opennms/features/minion/container/features
+@dir /opt/minion/system/org/opennms/features/minion/container/scv/18.0.0-SNAPSHOT
+@dir /opt/minion/system/org/opennms/features/minion/container/scv
+@dir /opt/minion/system/org/opennms/features/minion/container
+@dir /opt/minion/system/org/opennms/features/minion
+@dir /opt/minion/system/org/opennms/features/scv/org.opennms.features.scv.api/18.0.0-SNAPSHOT
+@dir /opt/minion/system/org/opennms/features/scv/org.opennms.features.scv.api
+@dir /opt/minion/system/org/opennms/features/scv/org.opennms.features.scv.jceks-impl/18.0.0-SNAPSHOT
+@dir /opt/minion/system/org/opennms/features/scv/org.opennms.features.scv.jceks-impl
+@dir /opt/minion/system/org/opennms/features/scv/org.opennms.features.scv.shell/18.0.0-SNAPSHOT
+@dir /opt/minion/system/org/opennms/features/scv/org.opennms.features.scv.shell
+@dir /opt/minion/system/org/opennms/features/scv
+@dir /opt/minion/system/org/opennms/features
+@dir /opt/minion/system/org/opennms
+@dir /opt/minion/system/org/ops4j/pax/logging/pax-logging-api/1.8.5
+@dir /opt/minion/system/org/ops4j/pax/logging/pax-logging-api
+@dir /opt/minion/system/org/ops4j/pax/logging/pax-logging-service/1.8.5
+@dir /opt/minion/system/org/ops4j/pax/logging/pax-logging-service
+@dir /opt/minion/system/org/ops4j/pax/logging
+@dir /opt/minion/system/org/ops4j/pax/url/pax-url-aether/2.4.5
+@dir /opt/minion/system/org/ops4j/pax/url/pax-url-aether
+@dir /opt/minion/system/org/ops4j/pax/url/pax-url-wrap/2.4.5
+@dir /opt/minion/system/org/ops4j/pax/url/pax-url-wrap
+@dir /opt/minion/system/org/ops4j/pax/url
+@dir /opt/minion/system/org/ops4j/pax/web/pax-web-features/4.2.4
+@dir /opt/minion/system/org/ops4j/pax/web/pax-web-features
+@dir /opt/minion/system/org/ops4j/pax/web
+@dir /opt/minion/system/org/ops4j/pax
+@dir /opt/minion/system/org/ops4j
+@dir /opt/minion/system/org/ow2/asm/asm-all/5.0.4
+@dir /opt/minion/system/org/ow2/asm/asm-all
+@dir /opt/minion/system/org/ow2/asm
+@dir /opt/minion/system/org/ow2
+@dir /opt/minion/system/org/slf4j/slf4j-api/1.7.12
+@dir /opt/minion/system/org/slf4j/slf4j-api
+@dir /opt/minion/system/org/slf4j
+@dir /opt/minion/system/org/springframework/spring-aop/3.1.4.RELEASE
+@dir /opt/minion/system/org/springframework/spring-aop
+@dir /opt/minion/system/org/springframework/spring-asm/3.1.4.RELEASE
+@dir /opt/minion/system/org/springframework/spring-asm
+@dir /opt/minion/system/org/springframework/spring-beans/3.1.4.RELEASE
+@dir /opt/minion/system/org/springframework/spring-beans
+@dir /opt/minion/system/org/springframework/spring-context/3.1.4.RELEASE
+@dir /opt/minion/system/org/springframework/spring-context
+@dir /opt/minion/system/org/springframework/spring-context-support/3.1.4.RELEASE
+@dir /opt/minion/system/org/springframework/spring-context-support
+@dir /opt/minion/system/org/springframework/spring-core/3.1.4.RELEASE
+@dir /opt/minion/system/org/springframework/spring-core
+@dir /opt/minion/system/org/springframework/spring-expression/3.1.4.RELEASE
+@dir /opt/minion/system/org/springframework/spring-expression
+@dir /opt/minion/system/org/springframework
+@dir /opt/minion/system/org
+@dir /opt/minion/system
+@dir /opt/minion
+@dir /opt

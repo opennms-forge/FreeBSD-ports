@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.karaf.features</groupId>
+  <artifactId>spring</artifactId>
+  <version>4.0.4</version>
+  <versioning>
+    <snapshot />
+    <lastUpdated>20160314204848</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>features</classifier>
+        <extension>xml</extension>
+        <value>4.0.4</value>
+        <updated>20160314204848</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
