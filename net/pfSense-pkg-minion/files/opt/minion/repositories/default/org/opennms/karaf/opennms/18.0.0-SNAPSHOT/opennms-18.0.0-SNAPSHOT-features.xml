@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features name="opennms-18.0.0-SNAPSHOT" xmlns="http://karaf.apache.org/xmlns/features/v1.2.0">
+    <repository>mvn:org.apache.camel.karaf/apache-camel/2.14.1/xml/features</repository>
+    <repository>mvn:org.apache.activemq/activemq-karaf/5.10.0/xml/features</repository>
+    <repository>mvn:org.apache.activemq/activemq-karaf/5.10.0/xml/features</repository>
+    <feature name="opennms-18.0.0-SNAPSHOT" version="18.0.0-SNAPSHOT" description="OpenNMS OSGi Container - OpenNMS Features">
+        <details>OpenNMS is the world's first enterprise grade network management platform developed under the open source model. It consists of a community supported open-source project as well as a commercial services, training and support organization.</details>
+        <feature>activemq-broker</feature>
+        <feature>admin</feature>
+        <feature>aries-blueprint</feature>
+        <feature>aries-proxy</feature>
+        <feature>blueprint-web</feature>
+        <feature>config</feature>
+        <feature>deployer</feature>
+        <feature>diagnostic</feature>
+        <feature>eventadmin</feature>
+        <feature>features</feature>
+        <feature>http</feature>
+        <feature>http-whiteboard</feature>
+        <feature>jaas</feature>
+        <feature>jasypt-encryption</feature>
+        <feature>jetty</feature>
+        <feature>karaf-framework</feature>
+        <feature>kar</feature>
+        <feature>management</feature>
+        <feature>obr</feature>
+        <feature>scr</feature>
+        <feature>service-security</feature>
+        <feature>service-wrapper</feature>
+        <feature>shell</feature>
+        <feature>ssh</feature>
+        <feature>war</feature>
+        <feature>webconsole</feature>
+        <feature>wrap</feature>
+        <feature>wrapper</feature>
+        <feature>pax-http</feature>
+        <feature>atomikos</feature>
+        <feature>batik</feature>
+        <feature>c3p0</feature>
+        <feature>castor</feature>
+        <feature>commons-beanutils</feature>
+        <feature>commons-cli</feature>
+        <feature>commons-codec</feature>
+        <feature>commons-collections</feature>
+        <feature>commons-configuration</feature>
+        <feature>commons-digester</feature>
+        <feature>commons-exec</feature>
+        <feature>commons-io</feature>
+        <feature>commons-jexl</feature>
+        <feature>commons-lang</feature>
+        <feature>commons-net</feature>
+        <feature>dnsjava</feature>
+        <feature>fop</feature>
+        <feature>guava</feature>
+        <feature>hibernate36</feature>
+        <feature>hibernate-validator41</feature>
+        <feature>jaxb</feature>
+        <feature>jfreechart</feature>
+        <feature>jolokia</feature>
+        <feature>jrobin</feature>
+        <feature>json-lib</feature>
+        <feature>opennms-collection-api</feature>
+        <feature>opennms-collection-persistence-rrd</feature>
+        <feature>opennms-config-api</feature>
+        <feature>opennms-config</feature>
+        <feature>opennms-config-jaxb</feature>
+        <feature>opennms-core-daemon</feature>
+        <feature>opennms-core-db</feature>
+        <feature>opennms-core</feature>
+        <feature>opennms-core-web</feature>
+        <feature>opennms-dao-api</feature>
+        <feature>opennms-dao</feature>
+        <feature>opennms-discovery</feature>
+        <feature>opennms-events-api</feature>
+        <feature>opennms-events-daemon</feature>
+        <feature>opennms-events-traps</feature>
+        <feature>opennms-icmp-api</feature>
+        <feature>opennms-icmp-jna</feature>
+        <feature>opennms-icmp-jni</feature>
+        <feature>opennms-icmp-jni6</feature>
+        <feature>opennms-javamail</feature>
+        <feature>opennms-model</feature>
+        <feature>opennms-poller-api</feature>
+        <feature>opennms-provisioning</feature>
+        <feature>opennms-reporting</feature>
+        <feature>opennms-rrd-api</feature>
+        <feature>opennms-rrd-jrobin</feature>
+        <feature>opennms-snmp</feature>
+        <feature>org.json</feature>
+        <feature>postgresql</feature>
+        <feature>opennms-core</feature>
+        <feature>opennms-core-web</feature>
+        <feature>opennms-jaas-login-module</feature>
+        <feature>dashlet-alarms</feature>
+        <feature>dashlet-charts</feature>
+        <feature>dashlet-image</feature>
+        <feature>dashlet-ksc</feature>
+        <feature>dashlet-map</feature>
+        <feature>dashlet-rrd</feature>
+        <feature>dashlet-rtc</feature>
+        <feature>dashlet-summary</feature>
+        <feature>dashlet-surveillance</feature>
+        <feature>dashlet-topology</feature>
+        <feature>dashlet-url</feature>
+        <feature>nrtg</feature>
+        <feature>opennms-amqp-event-forwarder</feature>
+        <feature>opennms-amqp-event-receiver</feature>
+        <feature>opennms-amqp-alarm-northbounder</feature>
+        <feature>opennms-topology-dev</feature>
+        <feature>opennms-topology-runtime-base</feature>
+        <feature>opennms-topology-runtime-browsers</feature>
+        <feature>opennms-topology-runtime-linkd</feature>
+        <feature>opennms-topology-runtime-ncs</feature>
+        <feature>opennms-topology-runtime-sfree</feature>
+        <feature>opennms-topology-runtime-simple</feature>
+        <feature>opennms-topology-runtime-vmware</feature>
+        <feature>vaadin-dashboard</feature>
+        <feature>vaadin-jmxconfiggenerator</feature>
+        <feature>vaadin-node-maps</feature>
+        <feature>vaadin-snmp-events-and-metrics</feature>
+        <feature>vaadin-surveillance-views</feature>
+        <feature>opennms-elasticsearch-event-forwarder</feature>
+        <feature>jira-troubleticketer</feature>
+    </feature>
+    <feature name="opennms-activemq-dispatcher-config" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: ActiveMQ :: Dispatcher Broker Config">
+        <configfile finalname="/etc/activemq-dispatcher.xml" override="true">mvn:org.opennms.features.activemq/org.opennms.features.activemq.broker/18.0.0-SNAPSHOT/xml/activemq-dispatcher</configfile>
+        <configfile finalname="/etc/org.apache.activemq.server-dispatcher.cfg">mvn:org.opennms.features.activemq/org.opennms.features.activemq.broker/18.0.0-SNAPSHOT/cfg/activemq-dispatcher</configfile>
+    </feature>
+    <feature name="opennms-activemq-dispatcher" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: ActiveMQ :: Dispatcher Broker">
+        <feature>opennms-activemq-dispatcher-config</feature>
+        <feature>activemq</feature>
+    </feature>
+    <feature name="opennms-activemq-config" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: ActiveMQ :: Broker Config">
+        <configfile finalname="/etc/activemq-receiver.xml" override="true">mvn:org.opennms.features.activemq/org.opennms.features.activemq.broker/18.0.0-SNAPSHOT/xml/activemq-receiver</configfile>
+        <configfile finalname="/etc/org.apache.activemq.server-broker.cfg">mvn:org.opennms.features.activemq/org.opennms.features.activemq.broker/18.0.0-SNAPSHOT/cfg/activemq-receiver</configfile>
+    </feature>
+    <feature name="opennms-activemq" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: ActiveMQ :: Broker">
+        <feature>opennms-activemq-config</feature>
+        <feature>activemq</feature>
+    </feature>
+    <feature name="opennms-amqp-event-forwarder" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: AMQP :: Event Forwarder">
+        <feature>camel-core</feature>
+        <feature>camel-blueprint</feature>
+        <feature>camel-http</feature>
+        <feature>camel-amqp</feature>
+        <bundle dependency="true">mvn:org.opennms.core/org.opennms.core.camel/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.amqp/org.opennms.features.amqp.common/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.amqp/org.opennms.features.amqp.event-forwarder/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-amqp-event-receiver" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: AMQP :: Event Receiver">
+        <feature>camel-core</feature>
+        <feature>camel-blueprint</feature>
+        <feature>camel-http</feature>
+        <feature>camel-amqp</feature>
+        <bundle dependency="true">mvn:org.opennms.core/org.opennms.core.camel/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.amqp/org.opennms.features.amqp.common/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.amqp/org.opennms.features.amqp.event-receiver/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-amqp-alarm-northbounder" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: AMQP :: Alarm Northbounder">
+        <feature>camel-core</feature>
+        <feature>camel-blueprint</feature>
+        <feature>camel-http</feature>
+        <feature>camel-amqp</feature>
+        <bundle dependency="true">mvn:org.opennms.core/org.opennms.core.camel/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.amqp/org.opennms.features.amqp.common/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.amqp/org.opennms.features.amqp.alarm-northbounder/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="onms-camel-elasticsearch" version="2.14.1" resolver="(obr)" start-level="50">
+        <feature version="2.14.1">camel-core</feature>
+        <feature>http</feature>
+        <bundle dependency="true">mvn:com.google.guava/guava/17.0</bundle>
+        <bundle dependency="true">mvn:com.google.protobuf/protobuf-java/2.5.0</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.core/jackson-core/2.4.1</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.4.1</bundle>
+        <bundle dependency="true">mvn:joda-time/joda-time/1.6.2</bundle>
+        <bundle dependency="true">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jakarta-regexp/1.4_1</bundle>
+        <bundle dependency="true">mvn:org.mvel/mvel2/2.2.1.Final</bundle>
+        <bundle dependency="true">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.lucene/4.6.1_1</bundle>
+        <bundle dependency="true">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.lucene-analyzers-common/4.6.1_1</bundle>
+        <bundle dependency="true">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.lucene-queryparser/4.6.1_1</bundle>
+        <bundle dependency="true">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.lucene-queries/4.6.1_1</bundle>
+        <bundle dependency="true">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.lucene-sandbox/4.6.1_1</bundle>
+        <bundle dependency="true">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.elasticsearch/1.0.0_4</bundle>
+        <bundle>mvn:org.apache.camel/camel-elasticsearch/2.14.1</bundle>
+    </feature>
+    <feature name="opennms-elasticsearch-event-forwarder" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Elasticsearch :: Event Forwarder">
+        <feature>camel-core</feature>
+        <feature>camel-blueprint</feature>
+        <feature>camel-http</feature>
+        <feature>onms-camel-elasticsearch</feature>
+        <bundle>mvn:com.google.guava/guava/17.0</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.camel/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.elasticsearch/org.opennms.features.elasticsearch.event-forwarder/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="atomikos" version="3.9.2" description="Atomikos :: TransactionEssentials">
+        <bundle>wrap:mvn:com.atomikos/atomikos-util/3.9.2</bundle>
+        <bundle>wrap:mvn:com.atomikos/transactions-api/3.9.2</bundle>
+        <bundle>wrap:mvn:com.atomikos/transactions/3.9.2</bundle>
+        <bundle>wrap:mvn:com.atomikos/transactions-jta/3.9.2</bundle>
+        <bundle>wrap:mvn:com.atomikos/transactions-jdbc/3.9.2</bundle>
+    </feature>
+    <feature name="batik" version="1.7" description="Apache :: XML Graphics :: Batik">
+        <bundle>wrap:mvn:xalan/xalan/2.7.2</bundle>
+        <bundle>wrap:mvn:xml-apis/xml-apis/1.4.01</bundle>
+        <bundle>wrap:mvn:xml-apis/xml-apis-ext/1.3.04</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-anim/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-awt-util/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-bridge/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-css/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-dom/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-ext/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-gvt/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-parser/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-script/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-svggen/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-svg-dom/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-transcoder/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-util/1.7</bundle>
+        <bundle>wrap:mvn:org.apache.xmlgraphics/batik-xml/1.7</bundle>
+    </feature>
+    <feature name="c3p0" version="0.9.1.2" description="c3p0">
+        <feature>postgresql</feature>
+        <bundle>wrap:mvn:c3p0/c3p0/0.9.1.2$Bundle-SymbolicName=c3p0&amp;Bundle-Version=0.9.1.2&amp;Import-Package=javax.management,javax.naming,javax.naming.spi,javax.sql,javax.xml.parsers,org.apache.log4j,org.postgresql,org.w3c.dom</bundle>
+    </feature>
+    <feature name="castor" version="1.1.2.1" description="Castor">
+        <bundle dependency="true">mvn:org.opennms.core/org.opennms.core.castor-properties/18.0.0-SNAPSHOT</bundle>
+        <bundle dependency="true">wrap:mvn:oro/oro/2.0.8</bundle>
+        <bundle>wrap:mvn:org.codehaus.castor/castor/1.1.2.1$Bundle-SymbolicName=org.codehaus.castor&amp;Bundle-Version=1.1.2.1&amp;Import-Package=javax.naming,javax.naming.directory,javax.xml.parsers,org.apache.commons.logging,org.apache.oro.text.regex,org.w3c.dom,org.xml.sax,org.xml.sax.helpers</bundle>
+    </feature>
+    <feature name="commons-beanutils" version="1.8.3" description="Apache :: commons-beanutils">
+        <feature>commons-collections</feature>
+        <bundle>mvn:commons-beanutils/commons-beanutils/1.8.3</bundle>
+    </feature>
+    <feature name="commons-codec" version="1.9" description="Apache :: commons-codec">
+        <bundle>mvn:commons-codec/commons-codec/1.9</bundle>
+    </feature>
+    <feature name="commons-cli" version="1.2" description="Apache :: commons-cli">
+        <bundle>mvn:commons-cli/commons-cli/1.2</bundle>
+    </feature>
+    <feature name="commons-collections" version="3.2.2" description="Apache :: commons-collections">
+        <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
+    </feature>
+    <feature name="commons-configuration" version="1.6" description="Apache :: commons-configuration">
+        <feature>commons-beanutils</feature>
+        <feature>commons-codec</feature>
+        <feature>commons-digester</feature>
+        <bundle>mvn:commons-jxpath/commons-jxpath/1.3</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jdom/1.1_4</bundle>
+        <bundle>wrap:mvn:org.apache.ant/ant/1.8.2</bundle>
+        <bundle>mvn:commons-configuration/commons-configuration/1.6</bundle>
+    </feature>
+    <feature name="commons-digester" version="2.1" description="Apache :: commons-digester">
+        <feature>commons-beanutils</feature>
+        <bundle>mvn:commons-digester/commons-digester/2.1</bundle>
+    </feature>
+    <feature name="commons-exec" version="1.2" description="Apache :: commons-exec">
+        <bundle>mvn:org.apache.commons/commons-exec/1.2</bundle>
+    </feature>
+    <feature name="commons-io" version="2.4" description="Apache :: commons-io">
+        <bundle>mvn:commons-io/commons-io/2.4</bundle>
+    </feature>
+    <feature name="commons-jexl" version="2.1.1" description="Apache :: commons-jexl">
+        <bundle>mvn:org.apache.commons/commons-jexl/2.1.1</bundle>
+    </feature>
+    <feature name="commons-lang" version="2.6" description="Apache :: commons-lang">
+        <bundle>mvn:commons-lang/commons-lang/2.6</bundle>
+    </feature>
+    <feature name="commons-net" version="3.3" description="Apache :: commons-net">
+        <bundle>mvn:commons-net/commons-net/3.3</bundle>
+    </feature>
+    <feature name="lmax-disruptor" version="3.3.2" description="LMAX :: Disruptor">
+        <bundle>mvn:com.lmax/disruptor/3.3.2</bundle>
+    </feature>
+    <feature name="dnsjava" version="2.1.3" description="dnsjava">
+        <bundle dependency="true">wrap:mvn:org.dnsjava/dnsjava/2.1.3</bundle>
+    </feature>
+    <feature name="dropwizard-metrics" version="3.1.2" description="Dropwizard :: Metrics">
+        <bundle>mvn:io.dropwizard.metrics/metrics-core/3.1.2</bundle>
+    </feature>
+    <feature name="fop" version="1.0" description="Apache :: XML Graphics :: FOP">
+        <bundle>wrap:mvn:org.apache.xmlgraphics/fop/1.0</bundle>
+    </feature>
+    <feature name="guava" version="17.0" description="Google :: Guava">
+        <bundle dependency="true">mvn:com.google.guava/guava/17.0</bundle>
+    </feature>
+    <feature name="hibernate36" version="3.6.10.Final" description="Hibernate :: Hibernate ORM">
+        <bundle dependency="true">wrap:mvn:antlr/antlr/2.7.7</bundle>
+        <bundle dependency="true">wrap:mvn:dom4j/dom4j/1.6.1</bundle>
+        <bundle dependency="true">wrap:mvn:javax.transaction/jta/1.1</bundle>
+        <bundle dependency="true">mvn:commons-collections/commons-collections/3.2.2</bundle>
+        <bundle>wrap:mvn:org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final</bundle>
+        <bundle>wrap:mvn:org.hibernate/hibernate-core/3.6.10.Final$Export-Package=org.hibernate*;version="3.6.10"</bundle>
+        <bundle>wrap:mvn:org.hibernate/hibernate-commons-annotations/3.2.0.Final</bundle>
+    </feature>
+    <feature name="hibernate-validator41" version="4.1.0.Final" description="Hibernate :: Hibernate Validator">
+        <bundle dependency="true">wrap:mvn:javax.validation/validation-api/1.0.0.GA$Bundle-SymbolicName=javax.validation:validation-api&amp;Bundle-Version=1.0.0&amp;Export-Package=javax.validation;version="1.0.0",javax.validation.bootstrap;version="1.0.0",javax.validation.constraints;version="1.0.0",javax.validation.groups;version="1.0.0",javax.validation.metadata;version="1.0.0",javax.validation.spi;version="1.0.0"</bundle>
+        <bundle>wrap:mvn:org.hibernate/hibernate-validator-annotation-processor/4.1.0.Final</bundle>
+        <bundle>wrap:mvn:org.hibernate/hibernate-validator/4.1.0.Final</bundle>
+    </feature>
+    <feature name="jaxb" version="2.5.1" description="EclipseLink :: MOXy">
+        <bundle>mvn:org.eclipse.persistence/org.eclipse.persistence.moxy/2.5.1</bundle>
+        <bundle>mvn:org.eclipse.persistence/org.eclipse.persistence.core/2.5.1</bundle>
+        <bundle>mvn:org.eclipse.persistence/org.eclipse.persistence.asm/2.5.1</bundle>
+        <bundle>mvn:org.eclipse.persistence/org.eclipse.persistence.antlr/2.5.1</bundle>
+    </feature>
+    <feature name="jfreechart" version="1.0.13" description="JFree :: JFreeChart">
+        <bundle>wrap:mvn:jfree/jfreechart/1.0.13</bundle>
+        <bundle>wrap:mvn:jfree/jcommon/1.0.16</bundle>
+    </feature>
+    <feature name="jolokia" version="1.2.3" description="Jolokia">
+        <feature>http</feature>
+        <bundle>mvn:org.jolokia/jolokia-osgi/1.2.3</bundle>
+    </feature>
+    <feature name="jrobin" version="1.6.0-SNAPSHOT" description="JRobin">
+        <bundle>mvn:org.jrobin/jrobin/1.6.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="json-lib" version="2.2.3" description="json-lib">
+        <bundle>wrap:mvn:net.sf.ezmorph/ezmorph/1.0.6</bundle>
+        <bundle>wrap:mvn:net.sf.json-lib/json-lib/2.2.3/jar/jdk15</bundle>
+    </feature>
+    <feature name="org.json" version="20140107" description="org.json">
+        <bundle>wrap:mvn:org.json/json/20140107$Export-Package=org.json</bundle>
+    </feature>
+    <feature name="postgresql" version="9.3-1100-jdbc4" description="PostgreSQL :: JDBC Driver">
+        <bundle>wrap:mvn:org.postgresql/postgresql/9.3-1100-jdbc4</bundle>
+    </feature>
+    <feature name="spring-security32" version="3.2.7.RELEASE" description="Spring :: Security">
+        <feature version="[4.0,4.1)">spring-web</feature>
+        <feature>commons-codec</feature>
+        <bundle>wrap:mvn:org.springframework.ldap/spring-ldap-core/1.3.2.RELEASE$Export-Package=org.springframework.ldap*;version="1.3.2"</bundle>
+        <bundle>mvn:org.springframework.security/spring-security-aspects/3.2.7.RELEASE</bundle>
+        <bundle>mvn:org.springframework.security/spring-security-core/3.2.7.RELEASE</bundle>
+        <bundle>mvn:org.springframework.security/spring-security-config/3.2.7.RELEASE</bundle>
+        <bundle>mvn:org.springframework.security/spring-security-ldap/3.2.7.RELEASE</bundle>
+        <bundle>mvn:org.springframework.security/spring-security-remoting/3.2.7.RELEASE</bundle>
+        <bundle>mvn:org.springframework.security/spring-security-web/3.2.7.RELEASE</bundle>
+    </feature>
+    <feature name="spring-webflow" version="2.3.4.RELEASE" description="Spring :: Web Flow">
+        <bundle>wrap:mvn:opensymphony/ognl/2.6.11</bundle>
+        <bundle>wrap:mvn:org.springframework.webflow/spring-binding/2.3.4.RELEASE</bundle>
+        <bundle>wrap:mvn:org.springframework.webflow/spring-js/2.3.4.RELEASE</bundle>
+        <bundle>wrap:mvn:org.springframework.webflow/spring-js-resources/2.3.4.RELEASE</bundle>
+        <bundle>wrap:mvn:org.springframework.webflow/spring-webflow/2.3.4.RELEASE</bundle>
+    </feature>
+    <feature name="net.java.dev.jna" version="4.2.1" description="Java Native Access (JNA)">
+        <bundle>wrap:mvn:net.java.dev.jna/jna/4.2.1$Export-Package=com.sun.jna</bundle>
+        <bundle>wrap:mvn:net.java.dev.jna/jna-platform/4.2.1$Export-Package=com.sun.jna.platform</bundle>
+    </feature>
+    <feature name="jicmp" version="1.4.4" description="jicmp">
+        <bundle>wrap:mvn:org.opennms/jicmp-api/1.4.4$Export-Package=org.opennms.protocols.icmp,org.opennms.protocols.ip</bundle>
+    </feature>
+    <feature name="jicmp6" version="1.2.1" description="jicmp6">
+        <bundle>wrap:mvn:org.opennms/jicmp6-api/1.2.1$Export-Package=org.opennms.protocols.icmp6</bundle>
+    </feature>
+    <feature name="opennms-core" version="18.0.0-SNAPSHOT" description="OpenNMS :: Core">
+        <feature version="[4.0,4.1)">spring</feature>
+        <feature version="[4.0,4.1)">spring-orm</feature>
+        <feature>castor</feature>
+        <feature>commons-io</feature>
+        <feature>dnsjava</feature>
+        <feature>jaxb</feature>
+        <bundle>mvn:org.opennms.core/org.opennms.core.api/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.criteria/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.lib/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.logging/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.soa/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.spring/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.xml/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms/opennms-util/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-core-daemon" version="18.0.0-SNAPSHOT" description="OpenNMS :: Core :: Daemon">
+        <feature>opennms-core</feature>
+        <feature>opennms-config</feature>
+        <feature>opennms-icmp-api</feature>
+        <feature>opennms-model</feature>
+        <bundle>mvn:org.opennms.core/org.opennms.core.daemon/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-core-db" version="18.0.0-SNAPSHOT" description="OpenNMS :: Core :: Database">
+        <feature>atomikos</feature>
+        <feature>c3p0</feature>
+        <feature>castor</feature>
+        <feature>commons-io</feature>
+        <feature>postgresql</feature>
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.core/org.opennms.core.db/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-core-web" version="18.0.0-SNAPSHOT" description="OpenNMS :: Core :: Web">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.apache.httpcomponents/httpcore-osgi/4.3.3</bundle>
+        <bundle>mvn:org.apache.httpcomponents/httpclient-osgi/4.3.6</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.web/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-model" version="18.0.0-SNAPSHOT" description="OpenNMS :: Model">
+        <feature version="[4.0,4.1)">spring</feature>
+        <feature version="[4.0,4.1)">spring-jdbc</feature>
+        <feature version="[4.0,4.1)">spring-orm</feature>
+        <feature version="[4.0,4.1)">spring-tx</feature>
+        <feature>castor</feature>
+        <feature>commons-io</feature>
+        <feature>commons-lang</feature>
+        <feature>dnsjava</feature>
+        <feature>hibernate36</feature>
+        <feature>jaxb</feature>
+        <feature>opennms-core</feature>
+        <feature>opennms-events-api</feature>
+        <feature>opennms-poller-api</feature>
+        <feature>opennms-rrd-api</feature>
+        <feature>opennms-snmp</feature>
+        <bundle dependency="true">mvn:org.codehaus.jackson/jackson-core-asl/1.9.13</bundle>
+        <bundle dependency="true">mvn:org.codehaus.jackson/jackson-mapper-asl/1.9.13</bundle>
+        <bundle>mvn:org.opennms/opennms-model/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-collection-api" version="18.0.0-SNAPSHOT" description="OpenNMS :: Collection API">
+        <feature version="[4.0,4.1)">spring</feature>
+        <feature>opennms-config-api</feature>
+        <feature>opennms-poller-api</feature>
+        <feature>opennms-rrd-api</feature>
+        <bundle>mvn:org.opennms.features.collection/org.opennms.features.collection.api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-collection-persistence-rrd" version="18.0.0-SNAPSHOT" description="OpenNMS :: Collection :: Persistence :: RRD">
+        <feature>opennms-collection-api</feature>
+        <feature>opennms-dao-api</feature>
+        <feature>opennms-rrd-api</feature>
+        <bundle>mvn:org.opennms.features.collection/org.opennms.features.collection.persistence.rrd/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-config-api" version="18.0.0-SNAPSHOT" description="OpenNMS :: Configuration API">
+        <feature>opennms-core</feature>
+        <feature>opennms-model</feature>
+        <bundle>mvn:org.opennms/opennms-config-api/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms/opennms-config-model/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms/opennms-config-jaxb/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-config-jaxb" version="18.0.0-SNAPSHOT" description="OpenNMS :: Configuration :: JAXB">
+        <feature>hibernate36</feature>
+        <feature>commons-lang</feature>
+        <feature>opennms-core</feature>
+        <feature>opennms-snmp</feature>
+        <bundle>mvn:org.opennms/opennms-config-jaxb/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-config" version="18.0.0-SNAPSHOT" description="OpenNMS :: Configuration">
+        <feature>c3p0</feature>
+        <feature>commons-codec</feature>
+        <feature>opennms-config-api</feature>
+        <feature>opennms-core-db</feature>
+        <feature>opennms-poller-api</feature>
+        <feature>opennms-snmp</feature>
+        <bundle dependency="true">wrap:mvn:com.googlecode.concurrent-locks/concurrent-locks/1.0.0</bundle>
+        <bundle dependency="true">wrap:mvn:org.jasypt/jasypt/1.9.0</bundle>
+        <bundle>mvn:org.opennms/opennms-config/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-dao-api" version="18.0.0-SNAPSHOT" description="OpenNMS :: DAO API">
+        <feature>opennms-core</feature>
+        <feature>opennms-model</feature>
+        <feature>opennms-config-api</feature>
+        <bundle>mvn:org.opennms/opennms-dao-api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-dao" version="18.0.0-SNAPSHOT" description="OpenNMS :: DAO">
+        <feature>guava</feature>
+        <feature>opennms-collection-api</feature>
+        <feature>opennms-dao-api</feature>
+        <feature>opennms-core-daemon</feature>
+        <bundle>mvn:org.opennms/opennms-dao/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-discovery" version="18.0.0-SNAPSHOT" description="OpenNMS :: Discovery">
+        <feature>castor</feature>
+        <feature>guava</feature>
+        <feature>camel-core</feature>
+        <feature>camel-blueprint</feature>
+        <feature>activemq-camel</feature>
+        <feature>opennms-core-daemon</feature>
+        <feature>opennms-core-db</feature>
+        <feature>opennms-config</feature>
+        <feature>opennms-dao-api</feature>
+        <bundle>mvn:org.opennms.features/org.opennms.features.discovery/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-discovery-daemon" version="18.0.0-SNAPSHOT" description="OpenNMS :: Discovery :: Daemon">
+        <configfile finalname="/etc/blueprint-discovery.xml" override="true">mvn:org.opennms.features/org.opennms.features.discovery/18.0.0-SNAPSHOT/xml/blueprint-discovery</configfile>
+        <feature>opennms-discovery</feature>
+        <bundle>blueprint:file:etc/blueprint-discovery.xml</bundle>
+    </feature>
+    <feature name="opennms-events-api" version="18.0.0-SNAPSHOT" description="OpenNMS :: Events API">
+        <feature version="[4.0,4.1)">spring</feature>
+        <feature>castor</feature>
+        <feature>commons-lang</feature>
+        <feature>jaxb</feature>
+        <feature>opennms-core</feature>
+        <feature>opennms-snmp</feature>
+        <bundle>mvn:org.opennms.features.events/org.opennms.features.events.api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-events-daemon" version="18.0.0-SNAPSHOT" description="OpenNMS :: Events :: Daemon">
+        <feature>commons-beanutils</feature>
+        <feature>spring-dm</feature>
+        <feature>opennms-core-daemon</feature>
+        <feature>opennms-dao-api</feature>
+        <feature>opennms-events-api</feature>
+        <bundle>mvn:org.opennms.features.events/org.opennms.features.events.daemon/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-events-traps" version="18.0.0-SNAPSHOT" description="OpenNMS :: Events :: Trap Daemon">
+        <feature>opennms-core-daemon</feature>
+        <feature>opennms-dao-api</feature>
+        <feature>opennms-events-api</feature>
+        <bundle>mvn:org.opennms.features.events/org.opennms.features.events.traps/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-icmp-api" version="18.0.0-SNAPSHOT" description="OpenNMS :: ICMP :: API">
+        <feature>opennms-core</feature>
+        <bundle dependency="true">mvn:org.opennms.lib/org.opennms.lib.tracker/0.7</bundle>
+        <bundle>mvn:org.opennms/opennms-icmp-api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-icmp-jna" version="18.0.0-SNAPSHOT" description="OpenNMS :: ICMP :: JNA">
+        <feature>opennms-icmp-api</feature>
+        <feature>net.java.dev.jna</feature>
+        <bundle>mvn:org.opennms.core/org.opennms.core.icmp-jna/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms/opennms-icmp-jna/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-icmp-jni" version="18.0.0-SNAPSHOT" description="OpenNMS :: ICMP :: JNI">
+        <feature>opennms-icmp-api</feature>
+        <feature>jicmp</feature>
+        <bundle>mvn:org.opennms/opennms-icmp-jni/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-icmp-jni6" version="18.0.0-SNAPSHOT" description="OpenNMS :: ICMP :: JNI (with IPv6 support)">
+        <feature>opennms-icmp-jni</feature>
+        <feature>jicmp6</feature>
+        <bundle>mvn:org.opennms/opennms-icmp-jni6/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-javamail" version="18.0.0-SNAPSHOT" description="OpenNMS :: Javamail">
+        <bundle>mvn:org.opennms/opennms-javamail-api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-poller-api" version="18.0.0-SNAPSHOT" description="OpenNMS :: Poller API">
+        <feature version="[4.0,4.1)">spring</feature>
+        <feature>hibernate36</feature>
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.poller/org.opennms.features.poller.api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-provisioning" version="18.0.0-SNAPSHOT" description="OpenNMS :: Provisioning">
+        <bundle dependency="true">mvn:org.apache.mina/mina-core/2.0.7</bundle>
+        <bundle dependency="true">mvn:io.netty/netty/3.9.4.Final</bundle>
+        <bundle>mvn:org.opennms/opennms-provision-api/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms/opennms-provision-persistence/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-reporting" version="18.0.0-SNAPSHOT" description="OpenNMS :: Reporting">
+        <feature>castor</feature>
+        <feature>commons-beanutils</feature>
+        <feature>commons-io</feature>
+        <feature>fop</feature>
+        <feature>opennms-config</feature>
+        <feature>opennms-core</feature>
+        <feature>opennms-core-db</feature>
+        <feature>opennms-dao-api</feature>
+        <feature>opennms-javamail</feature>
+        <bundle>wrap:mvn:org.quartz-scheduler/quartz/2.1.5</bundle>
+        <bundle>mvn:org.opennms/opennms-reporting/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.reporting/org.opennms.features.reporting.api/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.reporting/org.opennms.features.reporting.availability/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.reporting/org.opennms.features.reporting.core/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.reporting/org.opennms.features.reporting.dao/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.reporting/org.opennms.features.reporting.model/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.reporting/org.opennms.features.reporting.repository/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.reporting/org.opennms.features.reporting.sdo/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-rrd-api" version="18.0.0-SNAPSHOT" description="OpenNMS :: RRD API">
+        <feature version="[4.0,4.1)">spring</feature>
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms/opennms-rrd-api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-rrd-jrobin" version="18.0.0-SNAPSHOT" description="OpenNMS :: RRD :: JRobin">
+        <feature version="[4.0,4.1)">spring</feature>
+        <feature>jrobin</feature>
+        <feature>opennms-rrd-api</feature>
+        <bundle>mvn:org.opennms/opennms-rrd-jrobin/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-snmp" version="18.0.0-SNAPSHOT" description="OpenNMS :: Core :: SNMP">
+        <feature>org.json</feature>
+        <bundle>mvn:org.opennms.core.snmp/org.opennms.core.snmp.api/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.core.snmp/org.opennms.core.snmp.commands/18.0.0-SNAPSHOT</bundle>
+        <bundle>wrap:mvn:org.snmp4j/snmp4j/2.3.1</bundle>
+        <bundle>mvn:org.opennms.core.snmp/org.opennms.core.snmp.implementations.snmp4j/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.core.snmp/org.opennms.core.snmp.joesnmp/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-syslogd-receiver-camel" version="18.0.0-SNAPSHOT" description="OpenNMS :: Syslogd :: Receiver :: Camel">
+        <feature version="[4.0,4.1)">spring</feature>
+        <feature>camel-core</feature>
+        <feature>camel-netty</feature>
+        <feature>dropwizard-metrics</feature>
+        <feature>lmax-disruptor</feature>
+        <feature>opennms-core</feature>
+        <feature>opennms-core-db</feature>
+        <feature>opennms-config</feature>
+        <feature>opennms-core-daemon</feature>
+        <feature>opennms-dao-api</feature>
+        <bundle>mvn:org.opennms.features.events/org.opennms.features.events.syslog/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-webapp" version="18.0.0-SNAPSHOT" description="OpenNMS :: Webapp">
+        <feature>war</feature>
+        <feature>commons-beanutils</feature>
+        <feature>commons-configuration</feature>
+        <feature>commons-jexl</feature>
+        <feature>fop</feature>
+        <feature>hibernate-validator41</feature>
+        <feature>jfreechart</feature>
+        <feature>jrobin</feature>
+        <feature>json-lib</feature>
+        <feature>spring-webflow</feature>
+        <feature>opennms-config</feature>
+        <feature>opennms-dao</feature>
+        <feature>opennms-provisioning</feature>
+        <feature>opennms-reporting</feature>
+        <feature>commons-cli</feature>
+        <feature>commons-exec</feature>
+        <feature>commons-net</feature>
+        <feature>opennms-core-web</feature>
+        <feature>spring-security32</feature>
+        <bundle>wrap:mvn:xalan/xalan/2.7.2</bundle>
+        <bundle>mvn:joda-time/joda-time/2.1</bundle>
+        <bundle>wrap:mvn:org.quartz-scheduler/quartz/2.1.5</bundle>
+        <bundle>wrap:mvn:org.w3c.css/sac/1.3</bundle>
+        <bundle>mvn:com.vaadin.external.flute/flute/1.3.0.gg2</bundle>
+        <bundle>wrap:mvn:net.sourceforge.cssparser/cssparser/0.9.11</bundle>
+        <bundle>mvn:org.opennms.features/org.opennms.features.system-report/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features/org.opennms.features.request-tracker/18.0.0-SNAPSHOT</bundle>
+        <bundle>wrap:mvn:org.opennms/rancid-api/1.0.3</bundle>
+        <bundle>mvn:org.opennms/opennms-web-api/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features/org.opennms.features.springframework-security/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms/opennms-webapp/18.0.0-SNAPSHOT/war</bundle>
+    </feature>
+    <feature name="opennms-jaas-login-module" version="18.0.0-SNAPSHOT" description="OpenNMS OSGi Container - JAAS Login Module for Karaf">
+        <details>OpenNMS is the world's first enterprise grade network management platform developed under the open source model. It consists of a community supported open-source project as well as a commercial services, training and support organization.</details>
+        <bundle>mvn:org.opennms.container/jaas-login-module/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/2.4.0</bundle>
+        <bundle>mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/2.4.0</bundle>
+    </feature>
+    <feature name="jmxconfiggenerator" version="18.0.0-SNAPSHOT" description="OpenNMS Features JMX Config Generator">
+        <details>OpenNMS is the world's first enterprise grade network management platform developed under the open source model. It consists of a community supported open-source project as well as a commercial services, training and support organization.</details>
+        <bundle>mvn:org.opennms.features/jmxconfiggenerator/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jaxb-impl/2.2.6_1</bundle>
+        <bundle>wrap:mvn:args4j/args4j/2.32</bundle>
+        <bundle>wrap:mvn:org.jvnet.opendmk/jmxremote_optional/1.0_01-ea</bundle>
+        <bundle>mvn:com.google.guava/guava/17.0</bundle>
+        <bundle>mvn:org.apache.velocity/velocity/1.7</bundle>
+        <bundle>mvn:org.opennms.features/org.opennms.features.name-cutter/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.velocity/velocity/1.7</bundle>
+        <bundle>mvn:org.slf4j/slf4j-api/1.7.7</bundle>
+        <bundle>mvn:org.slf4j/slf4j-simple/1.7.7</bundle>
+        <bundle>mvn:args4j/args4j/2.32</bundle>
+        <bundle>mvn:com.google.guava/guava/17.0</bundle>
+        <bundle>mvn:commons-io/commons-io/2.4</bundle>
+    </feature>
+    <feature name="vaadin-jmxconfiggenerator" version="18.0.0-SNAPSHOT" description="OpenNMS Features JMX Config Generator Web UI">
+        <details>OpenNMS is the world's first enterprise grade network management platform developed under the open source model. It consists of a community supported open-source project as well as a commercial services, training and support organization.</details>
+        <feature>vaadin</feature>
+        <feature>jmxconfiggenerator</feature>
+        <feature>opennms-config-jaxb</feature>
+        <bundle>mvn:org.opennms.features/vaadin-jmxconfiggenerator/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.vaadin-components/core/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features/jmxconfiggenerator/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.themes/jmxconfiggenerator-theme/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="vaadin-snmp-events-and-metrics" version="18.0.0-SNAPSHOT" description="OpenNMS Features Admin UI for SNMP Events and Metrics">
+        <details>OpenNMS Vaadin Administration UI for handling SNMP related configuration files for events and data collection.</details>
+        <feature>opennms-core</feature>
+        <feature>vaadin</feature>
+        <bundle>mvn:org.opennms.features/vaadin-snmp-events-and-metrics/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.vaadin-components/core/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.themes/onms-default-theme/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features/org.opennms.features.mib-compiler/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:commons-lang/commons-lang/2.6</bundle>
+    </feature>
+    <feature name="vaadin-node-maps" version="18.0.0-SNAPSHOT" description="OpenNMS Features Node Maps">
+        <details>OpenNMS Vaadin UI for displaying nodes on geographical maps using assets records.</details>
+        <feature>opennms-core-web</feature>
+        <feature>vaadin</feature>
+        <bundle>mvn:org.opennms.features/vaadin-node-maps/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.httpcomponents/httpcore-osgi/4.3.3</bundle>
+        <bundle>mvn:org.apache.httpcomponents/httpclient-osgi/4.3.6</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.web/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.geocoder/org.opennms.features.geocoder.google/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.geocoder/org.opennms.features.geocoder.nominatim/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.vaadin-components/core/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.geocoder/org.opennms.features.geocoder.api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="osgi-nrtg-api" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: NRTG :: API">
+        <details>The API contains the models for the NRTG OSGI projects. It has models for collection jobs, measurements and protocol collectors.</details>
+        <bundle>mvn:org.opennms.features.nrtg/nrtg-api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="osgi-nrtg-protocolcollector-snmp" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: NRTG :: SNMP Protocol Collector">
+        <details>Plugin for the NRTCollector OSGI Satellit to collect data from snmp agents</details>
+        <feature>osgi-nrtg-api</feature>
+        <bundle>mvn:org.opennms.features.nrtg.protocolcollector/nrtg-protocolcollector-snmp/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="osgi-nrtg-protocolcollector-tca" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: NRTG :: TCA Protocol Collector">
+        <details>Plugin for the NRTCollector OSGI Satellite to collect data from TCA agents.</details>
+        <feature>osgi-nrtg-api</feature>
+        <bundle>mvn:org.opennms.features.nrtg.protocolcollector/nrtg-protocolcollector-tca/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="osgi-nrtg-web" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: NRTG :: Web">
+        <details>NRTG Web Runtime Feature</details>
+        <feature>osgi-nrtg-api</feature>
+        <bundle>mvn:org.opennms.features.nrtg/nrtg-web/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="osgi-nrtg-base" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: NRTG :: Base">
+        <details>OSGI Runtime for the NRTCollector.</details>
+        <feature>osgi-nrtg-protocolcollector-snmp</feature>
+        <feature>osgi-nrtg-protocolcollector-tca</feature>
+        <feature>osgi-nrtg-web</feature>
+    </feature>
+    <feature name="osgi-nrtg-jms" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: NRTG :: JMS">
+        <details>OSGI Runtime for the NRTCollector.</details>
+        <feature>osgi-nrtg-base</feature>
+        <feature>activemq</feature>
+        <feature>activemq-blueprint</feature>
+        <feature>spring-jms</feature>
+        <bundle>mvn:org.opennms.features.nrtg/nrtg-collector/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.nrtg/nrtg-nrtbroker-jms/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.nrtg/nrtg-broker/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="osgi-nrtg-local" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: NRTG :: Local">
+        <details>OSGI Runtime for the NRTCollector.</details>
+        <feature>osgi-nrtg-base</feature>
+        <bundle>mvn:org.opennms.features.nrtg/nrtg-nrtbroker-local/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="nrtg" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: NRTG :: All NRTG Features">
+        <details>OSGI Runtime for the NRTCollector.</details>
+        <feature>osgi-nrtg-jms</feature>
+        <feature>osgi-nrtg-local</feature>
+    </feature>
+    <feature name="vaadin" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Vaadin + Dependencies">
+        <details>The Vaadin web application framework including some addons and osgi related packages.</details>
+        <feature>http-whiteboard</feature>
+        <bundle>wrap:mvn:org.vaadin.addons/refresher/1.2.3.7</bundle>
+        <bundle>wrap:mvn:org.vaadin.addons/contextmenu/4.2.1</bundle>
+        <bundle>wrap:mvn:org.vaadin.addon/confirmdialog/2.0.4</bundle>
+        <bundle>mvn:com.vaadin/vaadin-server/7.2.7</bundle>
+        <bundle>mvn:com.vaadin/vaadin-client-compiled/7.2.7</bundle>
+        <bundle>mvn:com.vaadin/vaadin-client/7.2.7</bundle>
+        <bundle>mvn:com.vaadin/vaadin-themes/7.2.7</bundle>
+        <bundle>mvn:com.vaadin/vaadin-shared/7.2.7</bundle>
+        <bundle>mvn:com.vaadin/vaadin-shared-deps/1.0.2</bundle>
+        <bundle>mvn:org.jsoup/jsoup/1.7.2</bundle>
+        <bundle>mvn:org.opennms.vaadin-extender/service/1.0.0</bundle>
+        <bundle>mvn:com.google.guava/guava/17.0</bundle>
+        <bundle>mvn:org.opennms.osgi/opennms-osgi-core/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.themes/onms-default-theme/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-topology-api" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Topology :: API">
+        <details>APIs for creating topology OSGi plugins.</details>
+        <feature>vaadin</feature>
+        <bundle>mvn:org.opennms.features.topology/api/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-topology-runtime-base" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Topology :: Runtime (Base)">
+        <details>Base runtime and plugins for the OpenNMS topology web app.</details>
+        <config name="org.opennms.features.topology.app">servletAlias=/topology
+                    widgetset=org.opennms.features.topology.widgetset.gwt.TopologyWidgetset
+                    theme=topo_default</config>
+        <config name="org.opennms.features.topology.app.menu">toplevelMenuOrder=File,Edit,View,Additions,Help
+                    submenu.File.groups=start,new,close,save,print,open,import,additions,end
+                    submenu.Edit.groups=start,undo,cut,find,add,layout,end,additions
+                    submenu.View.groups=start,layout,topology,grouping,additions,end
+                    submenu.Help.groups=start,main,tools,updates,end,additions
+                    submenu.Default.groups=start,main,end,additions</config>
+        <config name="org.opennms.features.topology.app.icons"># The following properties are mappings of vertex types to icons,
+                    # the icon must be a url.
+                    #
+                    # Prefix your url with theme:// to designate that url to the image is in the theme bundle
+                    #
+                    server=theme://images/server.png</config>
+        <feature>opennms-core</feature>
+        <feature>opennms-topology-api</feature>
+        <bundle>mvn:org.opennms.features.topology/app/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.topology.plugins.topo/history/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.topology.plugins/layout/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.topology/netutils/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.topology/widgetset/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.topology.themes/default-theme/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-topology-dev" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Topology :: Development">
+        <details>Useful utilities for the OpenNMS OSGi container.</details>
+        <bundle>mvn:org.opennms.features.topology/shell/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.topology.plugins/devutils/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-topology-runtime-linkd" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Topology :: Runtime (Linkd)">
+        <details>Linkd-based runtime and plugins for the OpenNMS topology web app.</details>
+        <config name="org.opennms.features.topology.plugins.topo.linkd">configurationFile=${karaf.home}/etc/saved-linkd-graph.xml</config>
+        <feature>opennms-topology-runtime-base</feature>
+        <bundle>mvn:org.opennms.features.topology.plugins.topo/linkd/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-topology-runtime-browsers" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Topology :: Runtime (Browsers)">
+        <details>Alarm browser to enhance the Linkd topology UI.</details>
+        <feature>opennms-topology-runtime-linkd</feature>
+        <bundle>mvn:org.opennms.features.topology.plugins/browsers/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-topology-runtime-ncs" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Topology :: Runtime (NCS)">
+        <details>NCS-based runtime and plugins for the OpenNMS topology web app.</details>
+        <feature>camel-blueprint</feature>
+        <feature>camel-core</feature>
+        <feature>camel-http</feature>
+        <feature>opennms-topology-runtime-base</feature>
+        <bundle>mvn:org.opennms.core/org.opennms.core.camel/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.topology.plugins/ncs/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-topology-runtime-sfree" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Topology :: Runtime (Scale Free)">
+        <details>Simple Scale Free and plugins for the OpenNMS topology web app.</details>
+        <feature>opennms-topology-runtime-base</feature>
+        <bundle>mvn:org.opennms.features.topology.plugins.topo/sfree/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-topology-runtime-simple" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Topology :: Runtime (Simple)">
+        <details>Simple runtime and plugins for the OpenNMS topology web app.</details>
+        <feature>opennms-topology-runtime-base</feature>
+        <bundle>mvn:org.opennms.features.topology.plugins.topo/simple/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="opennms-topology-runtime-vmware" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Topology :: Runtime (VMware)">
+        <details>Runtime and plugins for the OpenNMS VMware topology web app.</details>
+        <feature>opennms-topology-runtime-base</feature>
+        <bundle>mvn:org.opennms.features.topology.plugins.topo/vmware/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="vaadin-dashboard" version="18.0.0-SNAPSHOT" description="OpenNMS Features Dashboard">
+        <details>OpenNMS Vaadin Dashboard</details>
+        <feature>opennms-core</feature>
+        <feature>vaadin</feature>
+        <bundle>mvn:org.opennms.features/vaadin-dashboard/18.0.0-SNAPSHOT</bundle>
+        <bundle>wrap:mvn:org.vaadin.addons/dragdroplayouts/1.1.1</bundle>
+        <bundle>mvn:org.opennms.features.vaadin-components/core/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.themes/dashboard-theme/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-alarms" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: Alarms">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-alarms/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-summary" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: Summary">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-summary/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-map" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: Map">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-map/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-image" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: Image">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-image/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-charts" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: Charts">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-charts/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-rtc" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: RTC">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-rtc/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-rrd" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: RRD">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-rrd/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-ksc" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: KSC">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-ksc/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-topology" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: Topology">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-topology/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-surveillance" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: Surveillance">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-surveillance/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="dashlet-url" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Dashlets :: URL">
+        <feature>opennms-core</feature>
+        <bundle>mvn:org.opennms.features.vaadin-dashlets/dashlet-url/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="vaadin-surveillance-views" version="18.0.0-SNAPSHOT" description="OpenNMS Features Vaadin Surveillance Views">
+        <details>OpenNMS Vaadin Surveillance Views</details>
+        <feature>opennms-core</feature>
+        <feature>vaadin</feature>
+        <bundle>mvn:org.opennms.features/vaadin-surveillance-views/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.vaadin-components/graph/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.vaadin-components/core/18.0.0-SNAPSHOT</bundle>
+    </feature>
+    <feature name="jira-troubleticketer" version="18.0.0-SNAPSHOT" description="OpenNMS :: Features :: Ticketing :: JIRA">
+        <details>OpenNMS is the world's first enterprise grade network management platform developed under the open source model. It consists of a community supported open-source project as well as a commercial services, training and support organization.</details>
+        <bundle>mvn:joda-time/joda-time/2.1</bundle>
+        <bundle>mvn:org.opennms.features/jira-client/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features/jira-troubleticketer/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.features.ticketing/org.opennms.features.ticketing.api/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.opennms.core/org.opennms.core.lib/18.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:joda-time/joda-time/2.1</bundle>
+        <bundle>mvn:org.opennms.features/jira-client/18.0.0-SNAPSHOT</bundle>
+    </feature>
+</features>

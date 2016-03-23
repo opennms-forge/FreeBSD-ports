@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.atomikos</groupId>
+  <artifactId>transactions-api</artifactId>
+  <version>3.9.2</version>
+  <versioning>
+    <snapshot />
+    <lastUpdated>20160314204851</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.9.2</value>
+        <updated>20160314204851</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

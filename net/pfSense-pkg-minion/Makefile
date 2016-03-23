@@ -38,5 +38,9 @@ do-install:
 		${STAGEDIR}${DATADIR}
 	@${REINPLACE_CMD} -i '' -e "s|%%PKGVERSION%%|${PKGVERSION}|" \
 		${STAGEDIR}${DATADIR}/info.xml
+	${MKDIR} ${STAGEDIR}/opt/minion
+	(cd ${FILESDIR}/opt/minion && ${COPYTREE_SHARE} . ${STAGEDIR}/opt/minion)
+	${MKDIR} ${STAGEDIR}/opt/minion/bin
+	(cd ${FILESDIR}/opt/minion/bin && ${COPYTREE_BIN} . ${STAGEDIR}/opt/minion/bin)
 
 .include <bsd.port.mk>
