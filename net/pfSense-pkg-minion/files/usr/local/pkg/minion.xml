@@ -40,17 +40,31 @@
                 </field>
 		<field>
 			<fielddescr>HTTP URL</fielddescr>
-			<fieldname>opennms.http</fieldname>
+			<fieldname>httpurl</fieldname>
 			<description>Enter the URL used to access HTTP on the OpenNMS instance.</description>
 			<type>input</type>
-			<!-- <required>true</required> -->
 		</field>
 		<field>
 			<fielddescr>Broker URL</fielddescr>
-			<fieldname>opennms.broker</fieldname>
+			<fieldname>brokerurl</fieldname>
 			<description>Enter the URL used to access the ActiveMQ broker used by the OpenNMS instance.</description>
 			<type>input</type>
-			<!-- <required>true</required> -->
+		</field>
+                <field>
+                        <name>Minion Options</name>
+                        <type>listtopic</type>
+                </field>
+		<field>
+			<fielddescr>ID</fielddescr>
+			<fieldname>id</fieldname>
+			<description>Enter the UUID that will be used to identify this Minion.</description>
+			<type>input</type>
+		</field>
+		<field>
+			<fielddescr>Location</fielddescr>
+			<fieldname>location</fieldname>
+			<description>Enter the name of the location to which this Minion should be associated.</description>
+			<type>input</type>
 		</field>
 	</fields>
         <custom_php_resync_config_command>
