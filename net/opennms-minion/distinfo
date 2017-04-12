@@ -1,7 +1,7 @@
-TIMESTAMP = 1486818382
-SHA256 (opennms-minion-container-19.0.0-0.20170210.onms1150.release.19.0.0.102.noarch.rpm) = 9a79c277c043df361cfd6fca1c11488c2b0e2bcd2bdb885473755a9d49eab735
-SIZE (opennms-minion-container-19.0.0-0.20170210.onms1150.release.19.0.0.102.noarch.rpm) = 30151846
-SHA256 (opennms-minion-features-core-19.0.0-0.20170210.onms1150.release.19.0.0.102.noarch.rpm) = 63394621d27927998c1ffcd44878b1b45eb282c05e0d986f4cc7c4f1f4f57877
-SIZE (opennms-minion-features-core-19.0.0-0.20170210.onms1150.release.19.0.0.102.noarch.rpm) = 21754741
-SHA256 (opennms-minion-features-default-19.0.0-0.20170210.onms1150.release.19.0.0.102.noarch.rpm) = 6663c9d375e4b057d99e2db978ac6e4048ed51154d3d1cd75e44a510a7597197
-SIZE (opennms-minion-features-default-19.0.0-0.20170210.onms1150.release.19.0.0.102.noarch.rpm) = 112162312
+TIMESTAMP = 1492013045
+SHA256 (opennms-minion-container-19.0.0-0.20170411.onms1318.foundation.2017.84.noarch.rpm) = 86b906a227ced19f9159525b00bbfc5e6492aca987a9fd83c0a55312b988c740
+SIZE (opennms-minion-container-19.0.0-0.20170411.onms1318.foundation.2017.84.noarch.rpm) = 30152380
+SHA256 (opennms-minion-features-core-19.0.0-0.20170411.onms1318.foundation.2017.84.noarch.rpm) = 75bef1b0f624c443a1204df48febf4076ca6ff951f274d4aa0c463cda95d76d6
+SIZE (opennms-minion-features-core-19.0.0-0.20170411.onms1318.foundation.2017.84.noarch.rpm) = 21967615
+SHA256 (opennms-minion-features-default-19.0.0-0.20170411.onms1318.foundation.2017.84.noarch.rpm) = bb510dadad7ceeb3b3cc8a67762f3ab3c3d80e62bb6ff4bd873ab0723239038f
+SIZE (opennms-minion-features-default-19.0.0-0.20170411.onms1318.foundation.2017.84.noarch.rpm) = 110357600
