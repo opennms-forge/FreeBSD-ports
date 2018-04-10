@@ -15,6 +15,25 @@ function minion_install() {
 	exec("/bin/rm -rf " . MINION_BASE . '/repositories/.local');
 }
 
+function get_minion_id() {
+	// Use the serial if present
+	$serial = system_get_serial();
+	if (!empty($serial)) {
+		return $serial;
+	}
+
+	// Fallback to using the uniqueid
+	if (file_exists('/var/db/uniqueid')) {
+		$ngid = file_get_contents('/var/db/uniqueid');
+		if (!empty($ngid)) {
+			return $ngid;
+		}
+	}
+
+	// TODO: What happens when both of these conditions fail
+	return "pfsense-no-id";
+}
+
 function minion_write_config() {
         global $config;
         if (isset($config['installedpackages']['minion']['config'][0])) {
@@ -22,7 +41,7 @@ function minion_write_config() {
         } else {
                 $minion_config = array();
         }
-        $id = system_get_serial();
+        $id = get_minion_id();
         $location = $minion_config['location'];
         $httpurl = $minion_config['httpurl'];
         $brokerurl = $minion_config['brokerurl'];
