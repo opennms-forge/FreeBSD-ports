@@ -1,7 +1,7 @@
-TIMESTAMP = 1523325123
-SHA256 (opennms-minion-container-22.0.0-0.20180406.onms.develop.1332.noarch.rpm) = a5e098f3139f831f2dd1ecc0d9782a05c30044ba9e6e559de153bbec0883b5bd
-SIZE (opennms-minion-container-22.0.0-0.20180406.onms.develop.1332.noarch.rpm) = 46139911
-SHA256 (opennms-minion-features-core-22.0.0-0.20180406.onms.develop.1332.noarch.rpm) = be843fc02c1350fa7c7e4651343f60867df3d1e28742eaee4bffd54a34cd8167
-SIZE (opennms-minion-features-core-22.0.0-0.20180406.onms.develop.1332.noarch.rpm) = 29203530
-SHA256 (opennms-minion-features-default-22.0.0-0.20180406.onms.develop.1332.noarch.rpm) = 6f118599ffd81e57ad5eedfcaf02cc47d19a3f64499a0e1749ae5ebe8732b388
-SIZE (opennms-minion-features-default-22.0.0-0.20180406.onms.develop.1332.noarch.rpm) = 133006950
+TIMESTAMP = 1523988962
+SHA256 (opennms-minion-container-22.0.0-0.20180416.onms.develop.1335.noarch.rpm) = 40d41d5657664309dbfa045fc5af0561205c9a2056cd6328d204d5b6f5a6a10d
+SIZE (opennms-minion-container-22.0.0-0.20180416.onms.develop.1335.noarch.rpm) = 57376535
+SHA256 (opennms-minion-features-core-22.0.0-0.20180416.onms.develop.1335.noarch.rpm) = d0d0480268f10a16c180c787bf850c751d620d7bb1c7340a623e16cbcfafe329
+SIZE (opennms-minion-features-core-22.0.0-0.20180416.onms.develop.1335.noarch.rpm) = 29214711
+SHA256 (opennms-minion-features-default-22.0.0-0.20180416.onms.develop.1335.noarch.rpm) = 0e15c778e8c7370182a01747c57a37b28c958b056bb071009e8bb48cfcb93ad5
+SIZE (opennms-minion-features-default-22.0.0-0.20180416.onms.develop.1335.noarch.rpm) = 132799182
