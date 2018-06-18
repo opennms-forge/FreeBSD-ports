@@ -54,8 +54,12 @@ do-install:
 		${MKDIR} ${STAGEDIR}${INSTPREFIX}
 		(cd ${WRKDIR}/opt/minion && ${COPYTREE_SHARE} . ${STAGEDIR}${INSTPREFIX})
 		(cd ${WRKDIR}/opt/minion/bin && ${COPYTREE_BIN} . ${STAGEDIR}${INSTPREFIX}/bin)
-                (cp ${WRKDIR}/jna-4.5.1.jar ${STAGEDIR}${INSTPREFIX})
-                (cp ${WRKDIR}/jna-platform-4.5.1.jar ${STAGEDIR}${INSTPREFIX})
+		(cp ${DISTDIR}/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar ${STAGEDIR}${INSTPREFIX}/lib/boot/jna-4.4.0.jar)
+		(cp ${DISTDIR}/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar ${STAGEDIR}${INSTPREFIX}/repositories/default/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar)
+		(cp ${DISTDIR}/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar ${STAGEDIR}${INSTPREFIX}/system/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar)
+		(cp ${DISTDIR}/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar ${STAGEDIR}${INSTPREFIX}/lib/boot/jna-platform-4.4.0.jar)
+		(cp ${DISTDIR}/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar ${STAGEDIR}${INSTPREFIX}/repositories/default/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.jar)
+		(cp ${DISTDIR}/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar ${STAGEDIR}${INSTPREFIX}/system/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.jar)
 		@(cd ${STAGEDIR}${PREFIX}; ${FIND} -s minion -not -type d) >> ${TMPPLIST}
 
 .include <bsd.port.mk>
