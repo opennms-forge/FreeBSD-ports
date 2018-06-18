@@ -5,10 +5,13 @@ PORTVERSION=	${OPENNMS_MAJOR_VERSION}.${OPENNMS_MINOR_VERSION}.${OPENNMS_INC_VER
 PORTREVISION=	0
 CATEGORIES=	net java
 
-MASTER_SITES=	http://yum.opennms.org/stable/common/opennms/:source1
+MASTER_SITES=	http://yum.opennms.org/stable/common/opennms/:source1 \
+                http://central.maven.org/maven2/:source2
 DISTFILES+=	opennms-minion-container-${OPENNMS_PACKAGE_VERSION}.noarch.rpm:source1 \
 		opennms-minion-features-core-${OPENNMS_PACKAGE_VERSION}.noarch.rpm:source1 \
-		opennms-minion-features-default-${OPENNMS_PACKAGE_VERSION}.noarch.rpm:source1
+		opennms-minion-features-default-${OPENNMS_PACKAGE_VERSION}.noarch.rpm:source1 \
+                net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar:source2 \
+                net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar:source2
 EXTRACT_ONLY=	opennms-minion-container-${OPENNMS_PACKAGE_VERSION}.noarch.rpm \
                 opennms-minion-features-core-${OPENNMS_PACKAGE_VERSION}.noarch.rpm \
                 opennms-minion-features-default-${OPENNMS_PACKAGE_VERSION}.noarch.rpm
@@ -51,6 +54,8 @@ do-install:
 		${MKDIR} ${STAGEDIR}${INSTPREFIX}
 		(cd ${WRKDIR}/opt/minion && ${COPYTREE_SHARE} . ${STAGEDIR}${INSTPREFIX})
 		(cd ${WRKDIR}/opt/minion/bin && ${COPYTREE_BIN} . ${STAGEDIR}${INSTPREFIX}/bin)
+                (cp ${WRKDIR}/jna-4.5.1.jar ${STAGEDIR}${INSTPREFIX})
+                (cp ${WRKDIR}/jna-platform-4.5.1.jar ${STAGEDIR}${INSTPREFIX})
 		@(cd ${STAGEDIR}${PREFIX}; ${FIND} -s minion -not -type d) >> ${TMPPLIST}
 
 .include <bsd.port.mk>
