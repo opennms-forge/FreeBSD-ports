@@ -5,7 +5,7 @@ PORTVERSION=	${OPENNMS_MAJOR_VERSION}.${OPENNMS_MINOR_VERSION}.${OPENNMS_INC_VER
 PORTREVISION=	0
 CATEGORIES=	net java
 
-MASTER_SITES=	http://yum.opennms.org/bleeding/common/opennms/:source1
+MASTER_SITES=	http://yum.opennms.org/stable/common/opennms/:source1
 DISTFILES+=	opennms-minion-container-${OPENNMS_PACKAGE_VERSION}.noarch.rpm:source1 \
 		opennms-minion-features-core-${OPENNMS_PACKAGE_VERSION}.noarch.rpm:source1 \
 		opennms-minion-features-default-${OPENNMS_PACKAGE_VERSION}.noarch.rpm:source1
@@ -24,9 +24,9 @@ RUN_DEPENDS=	javavm:${PORTSDIR}/java/javavmwrapper
 OPENNMS_MAJOR_VERSION=  22
 OPENNMS_MINOR_VERSION=  0
 OPENNMS_INC_VERSION=    0
-OPENNMS_DATE_VERSION=	2018.04.18
+OPENNMS_DATE_VERSION=	2018.05.21
 
-OPENNMS_PACKAGE_VERSION=	22.0.0-0.20180416.onms.develop.1335
+OPENNMS_PACKAGE_VERSION=	22.0.0-1
 
 USES=           perl5
 USE_JAVA=       yes
